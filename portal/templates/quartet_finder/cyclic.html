@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script type="text/javascript" src="{{STATIC_URL}}/static/bootstrap/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="{{STATIC_URL}}/static/bootstrap/css/bootstrap.min.css"/>
+	<title>Cyclic-4 Quartets</title>
+</head>
+<body>
+	<div >
+		<div class="col-md-12">
+			<div style="float:left" class="col-md-2" align="left">
+				{% load staticfiles %}
+				<img src="{% static "quartet.png" %}" height="105px" width="134px" alt="logo"/>
+			</div>
+			<div class="col-md-8" align="center" style="text-align: center;font-size: 60px;font-family:Rockwell Extra Bold">
+				Cyclic-4 Quartet Finder
+			</div>
+			<div style="float:right" class="col-md-2" align="right">
+				{% load staticfiles %}
+				<img src="{% static "iiit_logo.jpg" %}" height="120px" width="194px" alt="iiit_logo"/>
+			</div>
+		</div>
+		<div>
+			<nav class="navbar navbar-inverse"style="clear:both;">
+				<div class="container-fluid">
+					<ul class="nav navbar-nav">
+						<li><a href="/" style="font-size: 17px"><strong>Home</strong></a></li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" style="font-size: 17px"><strong>Quartet Atlas</strong>
+							<span class="caret"></span></a>
+							<ul class="dropdown-menu" style="font-size: 17px;">
+								<li><a href="/{{ 'media/output/direct_download/linear.html' }}" target="_blank"><strong>Linear</strong></a></li>
+								<li role="separator" class="divider"></li>
+								<li><a href="/{{ 'media/output/direct_download/star.html' }}" target="_blank"><strong>Star</strong></a></li>
+								<li role="separator" class="divider"></li>
+								<li><a href="/{{ 'media/output/direct_download/cyclic-4.html' }}" target="_blank"><strong>Cyclic-4</strong></a></li>
+								<li role="separator" class="divider"></li>
+								<li><a href="/{{ 'media/output/direct_download/cyclic-3.html' }}" target="_blank"><strong>Cyclic-3</strong></a></li>
+							</ul>
+						</li>
+						<li><a href="/help"style="font-size: 17px" target="_blank"><strong>Help</strong></a></li>
+						<li><a href="/tnd" style="font-size: 17px" target="_blank"><strong>Terms and definition</strong></a></li>
+						<li><a href="/contact" style="font-size: 17px" target="_blank"><strong>Contact</strong></a></li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+		<div class="col-xs-6 col-md-4"></div>
+		<div class="col-xs-6 col-md-4">
+			<form action="/cyclic/" method="POST" enctype="multipart/form-data">
+				{% csrf_token %}
+				<fieldset class="form-group">
+					<label for="exampleSelect1">Select Base 1(b1)</label>
+					<label style="float:right"><small><a href="#" onClick="multi_autoFill('b1-G;b2-G;geo-H:W;ori-C;data-XRAY'); return false;" id="test_button1" title="Click the 'Submit' button to see the results.">Test Example</a></small></label>
+
+					<select class="form-control b1" name="b1">
+						<option value="A">A</option>
+						<option value="C">C</option>
+						<option value="G">G</option>
+						<option value="U">U</option>
+					</select>
+				</fieldset>						
+
+				<fieldset class="form-group">
+					<label for="exampleSelect1">Select Base 2(b2)</label>
+					<select class="form-control b2" name="b2">
+						<option value="A">A</option>
+						<option value="C">C</option>
+						<option value="G">G</option>
+						<option value="U">U</option>
+					</select>
+				</fieldset>						
+				<!-- remmeber to add question mark link -->
+				<fieldset class="form-group">
+					<label for="exampleInputEmail1">Select geometry (b1:b2) <a href="/tnd#geometry" target="_blank">[?]</a></label>
+					<input type="textbox" class="form-control geo" name="geometry" placeholder="Enter geometry">
+				</fieldset>						
+
+				<fieldset class="form-group">
+					<label for="exampleSelect1">Select orientation (b1:b2)</label>
+					<select class="form-control ori" name="orient">
+						<option value="C">Cis</option>
+						<option value="T">Trans</option>
+					</select>
+				</fieldset>						
+
+
+				<fieldset class="form-group">
+					<label for="exampleSelect1">Select dataset <a href="/tnd#datasets" target="_blank">[?]</a></label>
+					<select class="form-control data" name="dataset">
+						<option value="HDRNA">HDRNA</option>
+						<option value="XRAY">XRAY</option>
+						<option value="NMR">NMR</option>
+						<option value="NDB">NDB</option>
+					</select>
+				</fieldset>						
+
+				<input class="btn btn-primary" type="submit" value="Submit" />
+				{% if download_path != None and file_empty == None %}
+				<a class="btn btn-primary" title="The download will be available only for 30mins." href="/{{download_path}}" download={{ file_name }}>Download</a>
+				<a class="btn btn-primary" target="_blank" href="/cyclic_view/{{file_name}}/">View</a>
+				{% elif file_empty != None %}
+					<script type="text/javascript">
+						alert("{{file_empty}}");
+						location = "http://127.0.0.1:8000/cyclic"; //REMEMBER TO CHANGE
+					</script>				
+				{% endif %}
+				{% if alert_msg7 != None %}
+					<script type="text/javascript">
+						alert("{{alert_msg7}}");
+						location = "http://127.0.0.1:8000/cyclic"; //REMEMBER TO CHANGE
+					</script>
+				{% endif %}
+			</form>
+		</div>
+		<div class="col-md-12" style="height: 24px"></div>
+		<div class="col-md-12" >
+			<hr style="border-top:solid;border-width: 2px; color: #000; margin: 0px">
+			QUARNA version 1.0 © CCNSB, IIIT Hyderabad
+		</div>
+
+<script type="text/javascript">
+    function autoFill(text){
+        var c = text.split('-');
+        $('.'+c[0]).val(c[1]);
+    }
+    function multi_autoFill(text){
+        var sets = text.split(';');
+        for(i=0;i<sets.length;i++){
+            autoFill(sets[i]);
+        }
+    }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script type="text/javascript" src="{{STATIC_URL}}/static/bootstrap/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="{{STATIC_URL}}/static/bootstrap/css/bootstrap.min.css"/>
+	<title>QUARNA</title>
+</head>
+<body>
+	<div>
+		<div class="col-md-12">
+			<div style="float:left" class="col-md-2" align="left">
+				{% load staticfiles %}
+				<img src="{% static "quartet.png" %}" height="120px" width="154px" alt="logo"/>
+			</div>
+			<div class="col-md-8" align="center" style="text-align: center;color:SteelBlue;font-size: 60px;font-family:Rockwell Extra Bold">QUARNA<br>
+				<div class="col-md-12" align="center" style="text-align: center;color:Black;font-size: 30px;font-family:Rockwell Extra Bold">(QUArtets in RNA) 
+				</div>
+			</div>
+			<div style="float:right" class="col-xs-4 col-md-2" align="right">
+				{% load staticfiles %}
+				<img src="{% static "iiit_logo.jpg" %}" height="120px" width="194px" alt="iiit_logo"/>
+			</div>
+		</div>
+		<div>
+			<nav class="navbar navbar-inverse"style="clear:both;">
+				<div class="container-fluid">
+					<ul class="nav navbar-nav">
+						<li><a href="/" style="font-size: 17px"><strong>Home</strong></a></li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" style="font-size: 17px"><strong>Quartet Atlas</strong>
+							<span class="caret"></span></a>
+							<ul class="dropdown-menu" style="font-size: 17px;">
+								<li><a href="/{{ 'media/output/direct_download/linear.html' }}" target="_blank"><strong>Linear</strong></a></li>
+								<li role="separator" class="divider"></li>
+								<li><a href="/{{ 'media/output/direct_download/star.html' }}" target="_blank"><strong>Star</strong></a></li>
+								<li role="separator" class="divider"></li>
+								<li><a href="/{{ 'media/output/direct_download/cyclic-4.html' }}" target="_blank"><strong>Cyclic-4</strong></a></li>
+								<li role="separator" class="divider"></li>
+								<li><a href="/{{ 'media/output/direct_download/cyclic-3.html' }}" target="_blank"><strong>Cyclic-3</strong></a></li>
+							</ul>
+						</li>
+						<li><a href="/help"style="font-size: 17px"><strong>Help</strong></a></li>
+						<li><a href="/tnd" style="font-size: 17px" target="_blank"><strong>Terms and definition</strong></a></li>
+						<li><a href="/contact" style="font-size: 17px" target="_blank"><strong>Contact</strong></a></li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+	</div>
+	<ol type="A">
+		<li><a href="#overview"><b>Overview</b></a></li>
+		<li><a href="#features"><b>Features available</b></a>
+		<ol style="margin-left: -20px">
+			<li><a href="#section1"><b>Get Quartets Here</b></a></li>
+			<li><a href="#section2"><b>Search quartets with specified residues</b></a></li>
+			<li><a href="#section3"><b>Quartets present in different databases</b></a></li>
+			<li><a href="#section4"><b>Topology wise searching</b></a></li>
+		</ol>
+		</li>
+		<li><a href="#formats"><b>Output formats for different topology</b></a>
+		<ol style="margin-left: -20px">
+			<li><a href="#linear"><b>Output for linear quartet</b></a></li>
+			<li><a href="#star"><b>Output for star quartet</b></a></li>
+			<li><a href="#cyclic"><b>Output for cyclic quartet</b></a></li>
+			<li><a href="#semicyclic"><b>Output for semi-cyclic quartet</b></a></li>
+		</ol>
+		</li>
+	</ol>
+	<div style="margin-left: 20px">
+		
+		<strong style="font-size: 20px" id="overview">A. Overview</strong><br>
+		<p style="margin-left: 30px;margin-right: 30px" align="justify">
+		<mark>QUARNA</mark> is a web portal, provides information about Quartets in RNA. Nucleotide base quartets are group of 4 nucleotide bases which interact with each other via base pairing and observed recurrently in different functional RNA molecules. In the present work we have classified quartets according to their belongingness to a particular topological class. A comprehensive nomenclature scheme has been proposed based on topology, identity of the four participating nucleotide bases and geometries of constituent base pairs.<br>
+		Web-portal will help RNA researcher to identify and annotate base quartets in a given pdb file and will provide complete lists of different type of quartets present in specified datasets of known RNA structures. Details of different datasets are available <a href="/tnd#datasets" target="_blank">here</a>.
+		</p>
+		
+		<strong style="font-size: 20px" id="features">B. Features available</strong><br>
+		<p style="margin-left: 30px;margin-right: 30px" align="justify">
+		Figure 1 shows the home page of QUARNA portal. We have implemented some features in QUARNA which help to search base quartets in multiple ways. The functionalities of the 4 sections marked with number 1-4 in figure1 are elaborately described below. At the top QUARNA home page, a navigation bar named Quartet Atlas is available (highlighted in a red square box in Figure 1), where user can get a overview of all available quartet varieties in nature. Separate lists are available for different topologies. Quartet Atlas also provides an idea about occurrence frequency of each quartet type in all four dataset considered in our study.
+		<div align="center">
+			{% load staticfiles %}
+			<img src="{% static "help_page/figure1.jpg" %}" class="img-thumbnail" style="height: 500px" alt="..."><br>
+			<small>Figure 1. Home page of QUARNA portal. Four sections marked with red coloured encircled numbers are showing four different features available in QUARNA.</small><br><br>
+		</div>
+		<!-- START OF QUARTET FINDER -->
+		<p style="margin-left: 30px;margin-right: 30px" align="justify" id="section1"><i><b>1. Quartet Finder</b></i><br>
+		User can access Quartet finder program through this section. Here user can mention a pdb file name in the prescribed box (marked as (I) in figure 2), the program will fetch the pdb file directly from RCSB-PDB database and search for quartets in it upon clicking the "Find quartets" button (marked as (III) in figure 2). At the top right corner of the box there is a link for a test example. Clicking on this link a default pdb file “3tvf”will be considered for testing purpose. In figure 2 for example we have chosen the test example. This program may take some time to run completely depending on the size of the pdb file. Once completed two more options named “View” and “Download” will appear beside the find quartet button. If the user already have the pdb file in his/her local system, he/she can upload the file to the server through the browse option given (marked as (II) in figure 2) to get the same results.
+		</p>
+		<div align="center">
+			{% load staticfiles %}
+			<img src="{% static "help_page/figure2.jpg" %}" class="img-thumbnail" style="height: 350px" alt="..."><br>
+			<small>Figure 2. enlarged view of section 1 (Quartet Finder) of Figure 1.</small><br><br>
+		</div>
+		<p style="margin-left: 30px;margin-right: 30px" align="justify">
+		This quartet finder program detects all quartets in the given pdb file and generates four separate output files named as linear.txt, star.txt, cyclic.txt and semi_cyclic.txt for linear, star, cyclic and semi-cyclic topology respectively. These output files contain instances of all the quartets belong to the respective topological classes along with the detailed information about their location (nucleotide numbers and chain names) and base pairing geometries between participant nucleotide bases. The program also annotate each quartets as per our proposed nomenclature rules and report the proper name of each quartet in the same output files.<br>
+		<u>Download option</u>: Clicking on to the “Download” option user can download these generated files in .txt format within a zipped folder.  The details of the downloadable output files are described below.<a href="#formats"><sup>[?]</sup></a><br>
+
+		In Figure 2 we have given the pdb file name <i>3tvf</i>, the output will be generated and downloaded as <i>3tvf.zip</i> which can be extracted for further use.<br><br>
+		<i>3tvf.zip</i> will contain 12 output files:
+		<ol style="margin-left: 35px;margin-right: 30px" type="i" align="justify">
+			<li><b>.pdb file (3tvf.pdb)</b>: the original uploaded coordinate file in pdb format</li>
+			<li><b>.out file (3tvf.out)</b>: the BPFind output file, which provide list of base pairs</li>
+			<li><b>.cor file (3tvf.cor)</b>: the modified coordinate file, where residue numbers are reassigned by bpfind</li>
+			<li><b>.dat file (3tvf.dat)</b>: Information about secondary structure of the RNA chain</li>
+			<li><b>.fasta file (3tvf.fasta)</b>: RNA sequence written in FASTA format</li>
+			<li><b>.nup file (3tvf.nup)</b>: Base pairing information, used while running NUPARM software to calculate base pairing parameters.</li>
+			<li><b>.hlx file (3tvf.hlx)</b>: Information about helical regions present in the RNA structure (3tvf.pdb)</li>
+			<li><b>linear.txt</b>: List of linear quartets present in the given RNA structure (3tvf.pdb)</li>
+			<li><b>star.txt</b>: List of star quartets present in the given RNA structure (3tvf.pdb)</li>
+			<li><b>cyclic.txt</b>: List of cyclic quartets present in the given RNA structure (3tvf.pdb)</li>
+			<li><b>semi-cyclic.txt</b>: List of semi-cyclic quartets present in the given RNA structure (3tvf.pdb)</li>
+			<li><b>triple.txt</b>: List of triples present in the given RNA structure (3tvf.pdb)</li>
+		</ol>
+		</p>
+		<p style="margin-left: 30px;margin-right: 30px" align="justify">
+		Out of this 12 files 6 files (.out, .cor, .dat, .fasta, .nup, .hlx ) are generated by BPFind program. User can use these files as per requirement and .txt files are corresponding to triples and quartets detected by our program. The output format in each of the .txt files are explained in <a href="#formats" target="_blank">Section C</a>.<br>
+		<u>View option</u>: If the user click onto the “View” option, the same quartet lists which are mentioned above, will appear in a new tab. Before showing the result page a dialogue box will appear, which suggests users to continue script if any warning comes while loading the molecular image in the JSMOL window provided in the view result page.  Figure 3 shows the result page generated by selecting view option. At top left corner of the result page, there are  four separate tab corresponding to four topologies. In figure 3 as the “Linear”tab is selected, the list  below the tab showing different topology names, contains all instances of linear quartets in the pdb file 3tvf. The quartet instances shown in the lists are named according to the proposed nomenclature rules. Here nucleotide numbers of each residues are written before the residue name and chain id is written within a bracket follwing the residue name. In the right hand side JSMOL window initially the whole pdb file will be loaded. Then user can visualize any particular quartet(s) by selecting that/those quartet instances from the list and choosing any one of the three options - “Locate”, “Context”, and “Restrict”, provided just below the list. These options are highlighted within a red box in figure 3.<br>
+		<div align="center">
+			{% load staticfiles %}
+			<img src="{% static "help_page/figure3.jpg" %}" class="img-thumbnail" style="height: 500px" alt="..."><br>
+			<small>Figure 3. The result page generated by selecting the View option after completion of Quartet Finder run on pdb file 3tvf.</small><br><br>
+		</div>
+		<p style="margin-left: 30px;margin-right: 30px" align="justify">
+		Figure 3a explains the functionality of the Locate option. Selected quartet instances from the list will be highlighted in cartoon view within the whole structure by selecting “Locate”button.
+		</p>
+		<div align="center">
+			{% load staticfiles %}
+			<img src="{% static "help_page/figure3a.jpg" %}" class="img-thumbnail" style="height: 500px" alt="..."><br>
+			<small>Figure 3a. Function of Locate option.</small><br><br>
+		</div>
+		<p style="margin-left: 30px;margin-right: 30px" align="justify">
+		Figure 3b explains the functionalities of the Context option. Clicking on to the Context button, the selected quartets will become highlighted in ball and stick view and their surrounding residues within a 10 Angstrom radius will highlighted in wire frame view.  In this view user can understand the structural context of the selected quartet(s) inside the whole RNA structure. 
+		</p>
+		<div align="center">
+			{% load staticfiles %}
+			<img src="{% static "help_page/figure3b.jpg" %}" class="img-thumbnail" style="height: 500px" alt="..."><br>
+			<small>Figure 3b. Function of Context option.</small><br><br>
+		</div>
+		<p style="margin-left: 30px;margin-right: 30px" align="justify">
+		Figure 3c shows the function of Restrict option. Here user can select only one quartet at a time to get a restricted view of that particular quartet. User can understand the interaction geometry and hydrogen bonding pattern by zooming in the image.
+		</p>
+		<div align="center">
+			{% load staticfiles %}
+			<img src="{% static "help_page/figure3c.jpg" %}" class="img-thumbnail" style="height: 500px" alt="..."><br>
+			<small>Figure 3c. Function of Restrict option.</small><br><br>
+		</div>
+		<p style="margin-left: 30px;margin-right: 30px" align="justify">
+		Some of the JSMOL functions are given below the JSMOL window. Users can use other JSMOL functions, by clicking the right button of the mouse on the JSMOL window. User can follow a standard JSMOL tutorial, if they want any further manipulation of the structures as per their requirements. For rotating, shifting or zooming in or out user can follow the standard JSMOL mouse manual available at <a href="http://wiki.jmol.org/index.php/Mouse_Manual" target="_blank"> http://wiki.jmol.org/index.php/Mouse_Manual</a>.
+		</p>
+		</p>
+		<!-- END OF QUARTET FINDER -->
+		<br>
+		<!-- START OF SEARCH QUARTETS IN SPECIFIED RESIDUES -->
+		<p style="margin-left: 30px;margin-right: 30px" align="justify" id="section2"><i><b>2. Search quartets with specified residues</b></i><br>
+		We already have identified quartets of different topology and different base combinations and geometry present in 4 aforementioned dataset.<sup><a href="/tnd#datasets" target="_blank">[?]</a></sup><br>
+		In this search option user can mention any four residue of her choice and also can specify the topology and the dataset names from the drop down list (Figure 4).  The search will return a list of quartets composed of that four specified residues.
+		</p>
+		<div align="center">
+			{% load staticfiles %}
+			<img src="{% static "help_page/figure4.jpg" %}" class="img-thumbnail" style="height: 350px" alt="..."><br>
+			<small>Figure 4. Enlarged view of section 2 (Search quartets with specified residues) of Figure 1.</small><br><br>
+		</div>
+		<p style="margin-left: 30px;margin-right: 30px" align="justify">
+		Here also at the top right corner of the box, there is a link for Test example. For testing purpose it will automatically fill the options given in the box with default examples. Here we have selected the test example option in figure 4 we are searching for all instances of Star type quartets present in X-ray dataset<sup><a href="/tnd#datasets" target="_blank">[?]</a></sup> composed of two Adenine (A), one Cytosine(C), and one Guanine (G) residues.<br>
+		The result will return a list of different star quartets made up of  A, A, G, C residues, along with the pdb file names, chain names, residue numbers and proper annotation. The search result contains different quartets like  A(ACG)  WWT/ssC/HST, G(AAC)  SWT/swT/WWC, C(AAG)  hsC/ssC/WWC, A(ACG)  HHT/ssC/wsT and many more. All these quartets have mentioned base composition but, they have different geometries.<br>
+		The result can be downloaded as text file by clicking "Download" option as well as can be viewed in the web interface upon clicking the "View" button. Figure 4a displays the result page generated by selecting "View" option. At the top the drop down list marked as (I) contains the list of all pdb files, where quartets with A,A, C and G base compositions are present.<br>
+		<div align="center">
+			{% load staticfiles %}
+			<img src="{% static "help_page/figure4a.jpg" %}" class="img-thumbnail" style="height: 350px" alt="..."><br>
+			<small>Figure 4a. Result generated in view option of “Search Quartets with specified residues”.</small><br><br>
+		</div>
+		<p style="margin-left: 30px;margin-right: 30px" align="justify">
+		The output format of each type of quartets in downloaded text files are explained in <a href="#formats">Section C</a>.
+		</p>
+		</p>
+		<!-- END OF SEARCH QUARTETS IN SPECIFIED RESIDUES -->
+		<br>
+		<!-- START OF QUARTETS PRESENT IN DIFFERENT DATABASES -->
+		<p style="margin-left: 30px;margin-right: 30px" align="justify" id="section3"><i><b>3. Quartets present in different databases</b></i><br>
+		We have considered 4 different datasets to explore and analyze the varieties of different quartets. The 4 datasets are - (i) HDRNAS non redundant dataset, (ii) NDB non-redundant dataset, (iii) X-ray structure dataset from RCSB-PDB, (iv) NMR structure dataset from RCSB-PDB. Details of the 4 datasets are given <a href="/tnd#datasets" target="_blank">here</a>.
+		</p>
+		<div align="center">
+			{% load staticfiles %}
+			<img src="{% static "help_page/figure5.png" %}" class="img-thumbnail" style="height: 350px" alt="..."><br>
+			<small>Figure 5. Enlarged view of section 3 (Quartets present in different database) of Figure 1.</small><br><br>
+		</div>
+		<p style="margin-left: 30px;margin-right: 30px" align="justify">
+		In this section user can download the whole list of different quartets present in above mentioned four datasets. Figure 4 shows the enlarged view of section 3 of figure 1. Clicking on to a dataset name shown in figure 5, user will be able to download a <i>.zip</i> folder named with the name of the selected dataset. This folder contain four text files named as <i>linear.txt</i>, <i>star.txt</i>, <i>cyclic.txt</i>, and <i>semi-cyclic.txt</i> corresponding to four topological classes, which gives full list of all the instances from each topological class, present in the chosen dataset.<br>
+		For example, <i>HDRNA_quartets.zip</i> contains all quartet instances present in HDRNAS non-redundant dataset. Information about pdb file name, residue number, chain names and proper nomenclature of each of the quartet instances are reported in the downloaded text files.
+		</p>
+		<!--END OF QUARTETS PRESENT IN DIFFERENT DATABASES -->
+		<br>
+		<!-- START OF TOPOLOGY WISE SEARCHING -->
+		<p style="margin-left: 30px;margin-right: 30px" align="justify" id="section4"><i><b>4. Topology wise searching</b></i><br></p>	
+		<div align="center">
+			{% load staticfiles %}
+			<img src="{% static "help_page/figure6.jpg" %}" class="img-thumbnail" style="height: 350px" alt="..."><br>
+			<small>Figure 6: Enlarged view of section 4 (Topology wise searching) of Figure 1..</small><br><br>
+		</div>
+		<p style="margin-left: 30px;margin-right: 30px" align="justify">
+		Figure 6 is the enlarged view of section 4 shown in Figure 1.  This section provides a topology specific searching option. For example we can go to search in linear quartet tab. Figure 6 represent the searching options provided for linear quartets. In a linear quartet there is one central base pair and two terminal base pairs. Through this search option user can retrieve a list of quartets having a specific base pair either in central or terminal position. User can select two bases from the first two drop down list given, and then can mention a partcular geometry as W:W, W:H etc. In this search also user need to select a dataset. The result will provide information about the selected dataset only.
+		</p>
+		<div align="center">
+			{% load staticfiles %}
+			<img src="{% static "help_page/figure7.jpg" %}" class="img-thumbnail" style="height: 350px" alt="..."><br>
+			<small>Figure 7. Linear quartet finder. This search option helps to find linear quartets from selected dataset having specific base pairing geometry in it.</small><br><br>
+		</div>
+		<p style="margin-left: 30px;margin-right: 30px" align="justify">
+		For example, in Figure 7 we are searching for linear quartets present in HDRNAS dataset, which have A:A W:W Trans base pair as the central base pair. In this search user will get a list, where central base pair is A:A W:W Trans but terminal base pairs can be of any geometry, like GAAU SHT-WWT-HWT, CAAG ssC-WWT-HST, AAAU HHT-WWT-ssC and many other varieties. Pdb names and locations (nucleotide numbers and chain) are also given in the output.
+		</p>
+		<div align="center">
+			{% load staticfiles %}
+			<img src="{% static "help_page/figure8.jpg" %}" class="img-thumbnail" style="height: 350px" alt="..."><br>
+			<small>Figure 8. Star quartet finder. This search option helps to find star quartets from selected dataset having specific base pairing geometry it in.</small><br><br>
+		</div>
+		<p style="margin-left: 30px;margin-right: 30px" align="justify">
+		Similarly, in Figure 8 we are searching for all the instances of star type quartets present in HDRNAS dataset where central base is adenine and atleast one of the base pair is A:G H:S Trans.<br>
+		In Figure 6 there are two other options, "Search in Cyclic Quartet" and " Search in Semi-cyclic Quartet". The searching methods are very much intuitive and almost similar to as for linear quartets and for star quartets respectively.<br>
+		After completion of the query run a "Download" and "View" options appear in these cases also. User can download search results as text files by choosing the "Download" option and can view the quartet lists with molecular images in a similar way shown in Figure 4a.
+		</p>
+		<!-- END OF TOPOLOGY WISE SEARCHING -->
+		<br>
+		<!-- START OF OUTPUT FORMATS -->
+		<strong style="font-size: 20px" id="formats">C. Output formats for different topology</strong><br>
+<!-- 		<p style="margin-left: 30px">There are 4 different kinds of topologies namely- linear topology, star topology, cyclic topology and semi-cyclic topology. The output formats of the four topologies is explained below.</p> -->
+		<p style="margin-left: 30px;margin-right: 30px" align="justify" id="linear"><i><b>Output for linear quartet:</b></i><br></p>
+		<div align="center">
+			{% load staticfiles %}
+			<img src="{% static "help_page/figure9.jpg" %}" class="img-thumbnail" style="height: 400px" alt="..."><br>
+			<small>Figure 9. Output format for linear quartets. Here blue coloured numbers are line numbers and encircled red coloured number are column numbers.</small><br><br>
+		</div>
+		<p style="margin-left: 30px;margin-right: 30px" align="justify">
+		In figure 9 the first line “----------- 2GCV-----------” denotes the pdb file name in which the following linear quartets are observed. In this file 3 quartets are observed named as 1, 2 and 3.<br>
+		Corresponding to each quartet there are two lines shown as 1a and 1b, 2a and 2b etc. First line (line a) represents the identity and position (nucleotide number and chain id) of four participating bases and second line (line b) represents the name of the quartet which is assigned by our program as per the proposed nomenclature scheme.<br>
+		In Figure 9 for line 2a, column numbers are also given and meaning of each column is described below.
+		</p>
+		<p style="margin-left: 60px;margin-right: 30px" align="justify">
+			<u>Column 1.</u> Nucleotide number of one of the central base ( let's say base 2). Here 37.<br>
+			<u>Column 2.</u> Identity of the base 2. Here G.<br>
+			<u>Column 3.</u> Chain id of the base 2. Here B.<br>
+			<u>Column 4.</u> Nucleotide number of one of the other central base ( let's say base 3). Here 52.<br>
+			<u>Column 5.</u> Identity of the base 3. Here C.<br>
+			<u>Column 6.</u> Chain id of the base 3. Here B.<br>
+			<u>Column 7.</u> Base pairing interaction between base 2 and base 3.<br>
+			<u>Column 8.</u> Nucleotide number of one of the terminal base ( let's say base 1, which is interacting with base 1). Here 104.<br>
+			<u>Column 9.</u> Identity of the base 1. Here A.<br>
+			<u>Column 10.</u> Chain id of the base 1. Here B.<br>
+			<u>Column 12.</u> Nucleotide number of one of the other terminal base ( let's say base 4). Here 128.<br>
+			<u>Column 13.</u> Identity of the base 4. Here G.<br>
+			<u>Column 14.</u> Chain id of the base 4. Here B.<br>
+			<u>Column 15, 16 and 17</u> are giving information about the nucleotide number, base name and chain id of the base 3 (one of the central base) with which base 4 is interacting.<br>
+			<u>Column 18.</u> Base pairing interaction between base 4 and base 3.<br>
+			The name given in line 2b is generated following the nomenclature rules given in <a href="/tnd#nomenclature" target="_blank">terms and definition page</a>.
+		</p>
+		<p style="margin-left: 30px;margin-right: 30px" align="justify" id="star"><i><b>Output for star quartet:</b></i><br></p>
+		<div align="center">
+			{% load staticfiles %}
+			<img src="{% static "help_page/figure10.jpg" %}" class="img-thumbnail" style="height: 400px" alt="..."><br>
+			<small>Figure 10. Output format for star quartets. Here blue coloured numbers are line numbers and encircled red coloured number are column numbers.</small><br><br>
+		</div>
+		<p style="margin-left: 30px;margin-right: 30px" align="justify">
+		In Figure 10 also the first line “----------- 3R8S.pdb-----------” denotes the pdb file name in which the following star quartets are observed. In this example 4 quartets are observed named as 1, 2, 3 4 and 5.<br>
+		Corresponding to each quartets there are two lines shown as 1a and 1b, 2a and 2b etc. First line (line a) represents the identity and position (nucleotide number and chain id) of four participating bases and second line (line b) represents the name of the quartet which is assigned by our program as per the proposed nomenclature scheme.<br>
+		In figure 10 for line 2a, column numbers are also given and meaning of each column is described below.
+		</p>
+		<p style="margin-left: 60px;margin-right: 30px" align="justify">
+		<u>Column 1.</u> Nucleotide number of the central base ( let's say base 1). Here 480.<br>
+		<u>Column 2.</u> Identity of the base 1. Here A.<br>
+		<u>Column 3.</u> Chain id of the base 1. Here A.<br>
+		<u>Column 4.</u> Nucleotide number of one of the terminal base ( let's say base 2). Here 505.<br>
+		<u>Column 5.</u> Identity of the base 2. Here A.<br>
+		<u>Column 6.</u> Chain id of the base 2. Here A.<br>
+		<u>Column 7.</u> Base pairing interaction between base 1 (central base) and base 2. Here W:WT.<br>
+		<u>Column 8.</u> Nucleotide number of the another terminal base ( let's say base 3). Here 476.<br>
+		<u>Column 9.</u>  Identity of the base 3. Here G.<br>
+		<u>Column 10.</u> Chain id of the base 3. Here A.<br>
+		<u>Column 11.</u> Base pairing interaction between base 1 (central base) and base 3. Here H:ST.<br>
+		<u>Column 12.</u> Nucleotide number of the another terminal base ( let's say base 3). Here 499.<br>
+		<u>Column 13.</u>  Identity of the base 4. Here U.<br>
+		<u>Column 14.</u> Chain id of the base 4. Here A.<br>
+		<u>Column 15.</u> Base pairing interaction between base 1 (central base) and base 4. Here s:sC.<br>
+		The name given in line 2b is generated following the nomenclature rules given in <a href="/tnd#nomenclature" target="_blank">terms and definition page</a>.
+		</p>
+		<p style="margin-left: 30px;margin-right: 30px" align="justify" id="cyclic"><i><b>Output for cyclic-4 quartet:</b></i><br></p>
+		<div align="center">
+			{% load staticfiles %}
+			<img src="{% static "help_page/figure11.jpg" %}" class="img-thumbnail" style="height: 250px" alt="..."><br>
+			<small>Figure 11. Output format for Cyclic-4 quartets. Here blue coloured numbers are line numbers and encircled red coloured number are column numbers.</small><br><br>
+		</div>
+		<p style="margin-left: 30px;margin-right: 30px" align="justify">
+		In Figure 11 also the first line “----------- 1XJR-----------” denotes the pdb file name in which the following star quartets are observed. In this example 1 quartet is observed named as 1. Cyclic quartet can be represented as the combination of two triples, where terminal bases are shared by both the triples.<br>
+		Corresponding to each cyclic-4 quartet, thus there are three lines shown as 1a, 1b and 1c. First two lines (line a and line b) represent the identity and position (nucleotide number and chain id) of participating bases in two triples respectively and the third line (line c) represents the name of the quartet which is assigned by our program as per the proposed nomenclature scheme.<br>
+		In figure 11 for line 1a and 1b, column numbers are also given and meaning of each column is described below.<br>
+		For line 1a:
+		</p>
+		<p style="margin-left: 60px;margin-right: 30px" align="justify">
+		<u>Column 1.</u> Nucleotide number of the central base ( let's say base 1) of triple 1. Here 19.<br>
+		<u>Column 2.</u> Identity of the base 1. Here G.<br>
+		<u>Column 3.</u> Chain id of the base 1. Here A.<br>
+		<u>Column 4.</u> Nucleotide number of one of the terminal base ( let's say base 2) of triple 1. Here 31.<br>
+		<u>Column 5.</u> Identity of the base 2. Here C.<br>
+		<u>Column 6.</u> Chain id of the base 2. Here A.<br>
+		<u>Column 7.</u> Base pairing interaction between base 1 (central base) and base 2. Here W:WC.<br>
+		<u>Column 8.</u> Nucleotide number of the another terminal base ( let's say base 3). Here 20.<br>
+		<u>Column 9.</u>  Identity of the base 3. Here C.<br>
+		<u>Column 10.</u> Chain id of the base 3. Here A.<br>
+		<u>Column 11.</u> Base pairing interaction between base 1 (central base) and base 3. Here S:SC.<br>
+		</p>
+		<p style="margin-left: 30px;margin-right: 30px" align="justify">
+		For line 1b:
+		</p>
+		<p style="margin-left: 60px;margin-right: 30px" align="justify">
+		<u>Column 1.</u> Nucleotide number of the central base ( let's say base 4 of the quartet) of triple 2. Here 18.<br>
+		<u>Column 2.</u> Identity of the base 1. Here G.<br>
+		<u>Column 3.</u> Chain id of the base 1. Here A.<br>
+		<u>Column 4.</u> Nucleotide number of one of the terminal base ( let's say base 2) of triple 2 . Here 20. This terminal base is shared by the triple 1 also (base 3 of triple 1).<br>
+		<u>Column 5.</u> Identity of the base 2. Here C.<br>
+		<u>Column 6.</u> Chain id of the base 2. Here A.<br>
+		<u>Column 7.</u> Base pairing interaction between base 1 (central base) and base 2. Here W:WC.<br>
+		<u>Column 8.</u> Nucleotide number of the another terminal base ( let's say base 3). Here 31. This terminal base is shared by the triple 1 also (base 2 of triple 1).<br>
+		<u>Column 9.</u>  Identity of the base 3. Here C.<br>
+		<u>Column 10.</u> Chain id of the base 3. Here A.<br>
+		<u>Column 11.</u> Base pairing interaction between base 1 (central base) and base 3. Here S:SC.<br>
+		The name given in line 1c is generated following the nomenclature rules given in <a href="/tnd#nomenclature" target="_blank">terms and definition page</a>.
+		</p>
+		<p style="margin-left: 30px;margin-right: 30px" align="justify" id="semicyclic"><i><b>Output for cyclic-3 quartet:</b></i><br></p>
+		<div align="center">
+			{% load staticfiles %}
+			<img src="{% static "help_page/figure12.png" %}" class="img-thumbnail" style="height: 250px" alt="..."><br>
+			<small>Figure 12. Output format for cyclic-3 quartets.</small><br><br>
+		</div>
+		<p style="margin-left: 30px;margin-right: 30px" align="justify">
+		In Figure 12 also pdb file names are mentioned at the top. Then, to represent quartets two lines are mentioned, first one  started with “quad:” and second one started with “triplet:”.<br>
+		“Quad:” line is the same as 2b line of star quartet mentioned above. Fist residue of the “quad:” line is the central base of the semi-cyclic quartet.<br>
+		“Triplet:” line represent the cyclic triple part of the semi-cyclic quartet, where one of the terminal base of the star quartet (mentioned in “quad” line) is the central base of the triple. The first residue of the “triplet:” line is the central base of the cyclic triple part, which is otherwise one of the terminal base of the quartet.<br>
+		The third line is the name of the semi-cyclic quartet, generated following the nomenclature rules given in <a href="/tnd#nomenclature" target="_blank">terms and definition page</a>.
+		</p>
+	</div>
+	<div class="col-xs-12 col-md-12" >
+		<hr style="border-top:solid;border-width: 2px; color: #000;margin: 0px">
+		QUARNA version 1.0 © CCNSB, IIIT Hyderabad
+	</div>
+</body>
+</html>

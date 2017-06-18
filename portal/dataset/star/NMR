@@ -1,0 +1,77 @@
+-----------2ru7-----------
+19	G	B	21	A	B	S:HT	16	G	B	H:WC	22	G	B	W:HC
+Star:	G[AGG]	SHT/HWC/WHC
+
+16	G	B	18	A	B	S:WT	13	G	B	H:WC	19	G	B	W:HC
+Star:	G[AGG]	SWT/HWC/WHC
+
+4	G	A	6	A	A	S:WT	1	G	A	H:WC	7	G	A	W:HC
+Star:	G[AGG]	SWT/HWC/WHC
+
+11	G	A	12	A	A	S:SC	8	G	A	H:WC	2	G	A	W:HC
+Star:	G[AGG]	SSC/HWC/WHC
+
+7	G	A	9	A	A	S:HT	4	G	A	H:WC	10	G	A	W:HC
+Star:	G[AGG]	SHT/HWC/WHC
+
+13	G	B	15	A	B	S:HT	22	G	B	H:WC	16	G	B	W:HC
+Star:	G[AGG]	SHT/HWC/WHC
+
+1	G	A	3	A	A	S:HT	10	G	A	H:WC	4	G	A	W:HC
+Star:	G[AGG]	SHT/HWC/WHC
+
+-----------2jyj-----------
+8	G	A	66	A	B	S:ST	65	A	B	S:WT	35	C	A	W:WC
+Star:	G[AAC]	SST/SWT/WWC
+
+51	G	B	23	A	A	S:ST	22	A	A	S:WT	78	C	B	W:WC
+Star:	G[AAC]	SST/SWT/WWC
+
+-----------1q8n-----------
+29	G	A	31	A	A	S:WT	7	C	A	W:WC	24	G	A	H:WT
+Star:	G[ACG]	SWT/WWC/HWT
+
+-----------1my9-----------
+1	G	A	3	A	A	S:HT	13	G	A	H:WC	4	G	A	W:HC
+Star:	G[AGG]	SHT/HWC/WHC
+
+24	G	B	26	A	B	S:HT	18	G	B	H:WC	27	G	B	W:HC
+Star:	G[AGG]	SHT/HWC/WHC
+
+-----------2rsk-----------
+1	G	A	3	A	A	S:HT	10	G	A	H:WC	4	G	A	W:HC
+Star:	G[AGG]	SHT/HWC/WHC
+
+19	G	B	21	A	B	S:HT	16	G	B	H:WC	22	G	B	W:HC
+Star:	G[AGG]	SHT/HWC/WHC
+
+7	G	A	9	A	A	S:HT	4	G	A	H:WC	10	G	A	W:HC
+Star:	G[AGG]	SHT/HWC/WHC
+
+16	G	B	18	A	B	S:ST	13	G	B	H:WC	19	G	B	W:HC
+Star:	G[AGG]	SST/HWC/WHC
+
+13	G	B	15	A	B	S:HT	22	G	B	H:WC	16	G	B	W:HC
+Star:	G[AGG]	SHT/HWC/WHC
+
+4	G	A	6	A	A	S:ST	1	G	A	H:WC	7	G	A	W:HC
+Star:	G[AGG]	SST/HWC/WHC
+
+-----------2k95-----------
+98	G	A	172	A	A	S:WT	116	C	A	W:WC	99	U	A	S:HC
+Star:	G[ACU]	SWT/WWC/SHC
+
+-----------2rqj-----------
+1	G	A	3	A	A	S:HT	10	G	A	H:WC	4	G	A	W:HC
+Star:	G[AGG]	SHT/HWC/WHC
+
+19	G	B	21	A	B	S:HT	16	G	B	H:WC	22	G	B	W:HC
+Star:	G[AGG]	SHT/HWC/WHC
+
+13	G	B	15	A	B	S:HT	22	G	B	H:WC	16	G	B	W:HC
+Star:	G[AGG]	SHT/HWC/WHC
+
+7	G	A	9	A	A	S:HT	4	G	A	H:WC	10	G	A	W:HC
+Star:	G[AGG]	SHT/HWC/WHC
+
+23

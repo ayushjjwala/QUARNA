@@ -1,0 +1,400 @@
+-----------1vy5-----------
+1149	C	A	1280	A	A	S:WC	1124	G	A	W:WC
+1125	U	A	1280	A	A	W:HC	1124	G	A	H:SC
+Cyclic-4:	ACGU	WSC-WWC-SHC-WHC->
+
+-----------4u4z-pdb-bundle3-----------
+1488	G	d	1495	C	d	S:SC	1518	C	d	W:WC
+1512	G	d	1495	C	d	W:WC	1518	C	d	S:SC
+Cyclic-4:	CGCG	SSC-WWC-SSC-WWC->
+
+-----------4www-pdb-bundle2-----------
+1149	C	A	1280	A	A	S:WC	1124	G	A	W:WC
+1125	U	A	1280	A	A	W:HC	1124	G	A	H:SC
+Cyclic-4:	ACGU	WSC-WWC-SHC-WHC->
+
+-----------2awe-----------
+5	G	G	5	G	E	W:HC	5	G	F	H:WC
+5	G	H	5	G	E	H:WC	5	G	F	W:HC
+Cyclic-4:	GGGG	HWC-HWC-HWC-HWC->
+
+3	G	G	3	G	E	W:HC	3	G	F	H:WC
+3	G	H	3	G	E	H:WC	3	G	F	W:HC
+Cyclic-4:	GGGG	HWC-HWC-HWC-HWC->
+
+5	G	C	5	G	A	W:HC	5	G	B	H:WC
+5	G	D	5	G	A	H:WC	5	G	B	W:HC
+Cyclic-4:	GGGG	HWC-HWC-HWC-HWC->
+
+3	G	C	3	G	A	W:HC	3	G	B	H:WC
+3	G	D	3	G	A	H:WC	3	G	B	W:HC
+Cyclic-4:	GGGG	HWC-HWC-HWC-HWC->
+
+-----------4v9o-pdb-bundle2-----------
+1149	C	A	1280	A	A	S:WC	1124	G	A	W:WC
+1125	U	A	1280	A	A	W:HC	1124	G	A	H:SC
+Cyclic-4:	ACGU	WSC-WWC-SHC-WHC->
+
+-----------4v9o-pdb-bundle4-----------
+1149	C	A	1280	A	A	S:WC	1124	G	A	W:WC
+1125	U	A	1280	A	A	W:HC	1124	G	A	H:SC
+Cyclic-4:	ACGU	WSC-WWC-SHC-WHC->
+
+-----------4v4q-pdb-bundle3-----------
+1149	C	A	1280	A	A	S:WC	1124	G	A	W:WC
+1125	U	A	1280	A	A	W:HC	1124	G	A	H:SC
+Cyclic-4:	ACGU	WSC-WWC-SHC-WHC->
+
+-----------4v54-----------
+1149	C	A	1280	A	A	S:WC	1124	G	A	W:WC
+1125	U	A	1280	A	A	W:HC	1124	G	A	H:SC
+Cyclic-4:	ACGU	WSC-WWC-SHC-WHC->
+
+-----------4v57-----------
+1149	C	A	1280	A	A	S:WC	1124	G	A	W:WC
+1125	U	A	1280	A	A	W:HC	1124	G	A	H:SC
+Cyclic-4:	ACGU	WSC-WWC-SHC-WHC->
+
+-----------4v52-----------
+1149	C	A	1280	A	A	S:WC	1124	G	A	W:WC
+1125	U	A	1280	A	A	W:HC	1124	G	A	H:SC
+Cyclic-4:	ACGU	WSC-WWC-SHC-WHC->
+
+-----------3ibk-----------
+23	G	B	5	G	A	W:HC	17	G	B	H:WC
+11	G	A	5	G	A	H:WC	17	G	B	W:HC
+Cyclic-4:	GGGG	HWC-HWC-HWC-HWC->
+
+21	G	B	3	G	A	W:HC	15	G	B	H:WC
+9	G	A	3	G	A	H:WC	15	G	B	W:HC
+Cyclic-4:	GGGG	HWC-HWC-HWC-HWC->
+
+22	G	B	4	G	A	W:HC	16	G	B	H:WC
+10	G	A	4	G	A	H:WC	16	G	B	W:HC
+Cyclic-4:	GGGG	HWC-HWC-HWC-HWC->
+
+-----------4v9r-pdb-bundle3-----------
+1149	C	A	1280	A	A	S:WC	1124	G	A	W:WC
+1125	U	A	1280	A	A	H:HC	1124	G	A	W:SC
+Cyclic-4:	ACGU	WSC-WWC-SWC-HHC->
+
+-----------4v9b-pdb-bundle3-----------
+1255	G	A	1259	C	A	S:SC	1282	C	A	W:WC
+1276	G	A	1259	C	A	W:WC	1282	C	A	S:SC
+Cyclic-4:	CGCG	SSC-WWC-SSC-WWC->
+
+-----------4v52-pdb-bundle3-----------
+1149	C	A	1280	A	A	S:WC	1124	G	A	W:WC
+1125	U	A	1280	A	A	W:HC	1124	G	A	H:SC
+Cyclic-4:	ACGU	WSC-WWC-SHC-WHC->
+
+-----------4ybb-----------
+1149	C	V	1280	A	V	S:WC	1124	G	V	W:WC
+1125	U	V	1280	A	V	W:HC	1124	G	V	H:SC
+Cyclic-4:	ACGU	WSC-WWC-SHC-WHC->
+
+1149	C	A	1280	A	A	S:WC	1124	G	A	W:WC
+1125	U	A	1280	A	A	W:HC	1124	G	A	H:SC
+Cyclic-4:	ACGU	WSC-WWC-SHC-WHC->
+
+-----------4w2i-----------
+1149	C	A	1280	A	A	S:WC	1124	G	A	W:WC
+1125	U	A	1280	A	A	W:HC	1124	G	A	H:SC
+Cyclic-4:	ACGU	WSC-WWC-SHC-WHC->
+
+-----------4w2h-----------
+1149	C	A	1280	A	A	S:WC	1124	G	A	W:WC
+1125	U	A	1280	A	A	W:HC	1124	G	A	H:SC
+Cyclic-4:	ACGU	WSC-WWC-SHC-WHC->
+
+-----------2grb-----------
+5	G	G	5	G	E	W:HC	5	G	F	H:WC
+5	G	H	5	G	E	H:WC	5	G	F	W:HC
+Cyclic-4:	GGGG	HWC-HWC-HWC-HWC->
+
+2	G	G	2	G	E	W:HC	2	G	F	H:WC
+2	G	H	2	G	E	H:WC	2	G	F	W:HC
+Cyclic-4:	GGGG	HWC-HWC-HWC-HWC->
+
+5	G	C	5	G	A	W:HC	5	G	B	H:WC
+5	G	D	5	G	A	H:WC	5	G	B	W:HC
+Cyclic-4:	GGGG	HWC-HWC-HWC-HWC->
+
+6	U	H	6	U	E	W:HC	6	U	F	H:WC
+6	U	G	6	U	E	H:WC	6	U	F	W:HC
+Cyclic-4:	UUUU	HWC-HWC-HWC-HWC->
+
+4	G	C	4	G	A	W:HC	4	G	B	H:WC
+4	G	D	4	G	A	H:WC	4	G	B	W:HC
+Cyclic-4:	GGGG	HWC-HWC-HWC-HWC->
+
+4	G	G	4	G	E	W:HC	4	G	F	H:WC
+4	G	H	4	G	E	H:WC	4	G	F	W:HC
+Cyclic-4:	GGGG	HWC-HWC-HWC-HWC->
+
+2	G	C	2	G	A	W:HC	2	G	B	H:WC
+2	G	D	2	G	A	H:WC	2	G	B	W:HC
+Cyclic-4:	GGGG	HWC-HWC-HWC-HWC->
+
+-----------4u3n-----------
+1488	G	A	1495	C	A	S:SC	1518	C	A	W:WC
+1512	G	A	1495	C	A	W:WC	1518	C	A	S:SC
+Cyclic-4:	CGCG	SSC-WWC-SSC-WWC->
+
+-----------4ts0-----------
+65	G	Y	26	G	X	W:HC	70	G	Y	H:WC
+30	G	X	26	G	X	H:WC	70	G	Y	W:HC
+Cyclic-4:	GGGG	HWC-HWC-HWC-HWC->
+
+68	G	Y	25	G	X	W:HC	72	G	Y	H:WC
+29	G	X	25	G	X	H:WC	72	G	Y	W:HC
+Cyclic-4:	GGGG	HWC-HWC-HWC-HWC->
+
+-----------4ts2-----------
+65	G	Y	26	G	X	W:HC	70	G	Y	H:WC
+30	G	X	26	G	X	H:WC	70	G	Y	W:HC
+Cyclic-4:	GGGG	HWC-HWC-HWC-HWC->
+
+68	G	Y	25	G	X	W:HC	72	G	Y	H:WC
+29	G	X	25	G	X	H:WC	72	G	Y	W:HC
+Cyclic-4:	GGGG	HWC-HWC-HWC-HWC->
+
+-----------1xjr-----------
+19	G	A	20	C	A	S:SC	31	C	A	W:WC
+28	G	A	20	C	A	W:WC	31	C	A	S:SC
+Cyclic-4:	CGCG	SSC-WWC-SSC-WWC->
+
+-----------4u26-----------
+1149	C	A	1280	A	A	S:WC	1124	G	A	W:WC
+1125	U	A	1280	A	A	W:HC	1124	G	A	H:SC
+Cyclic-4:	ACGU	WSC-WWC-SHC-WHC->
+
+-----------4u25-----------
+1149	C	A	1280	A	A	S:WC	1124	G	A	W:WC
+1125	U	A	1280	A	A	W:HC	1124	G	A	H:SC
+Cyclic-4:	ACGU	WSC-WWC-SHC-WHC->
+
+-----------4v9p-pdb-bundle4-----------
+1149	C	A	1280	A	A	S:WC	1124	G	A	W:WC
+1125	U	A	1280	A	A	W:HC	1124	G	A	H:SC
+Cyclic-4:	ACGU	WSC-WWC-SHC-WHC->
+
+-----------4v57-pdb-bundle3-----------
+1149	C	A	1280	A	A	S:WC	1124	G	A	W:WC
+1125	U	A	1280	A	A	W:HC	1124	G	A	H:SC
+Cyclic-4:	ACGU	WSC-WWC-SHC-WHC->
+
+-----------4q9r-----------
+57	G	R	22	G	R	W:HC	61	G	R	H:WC
+26	G	R	22	G	R	H:WC	61	G	R	W:HC
+Cyclic-4:	GGGG	HWC-HWC-HWC-HWC->
+
+54	G	R	23	G	R	W:HC	59	G	R	H:WC
+27	G	R	23	G	R	H:WC	59	G	R	W:HC
+Cyclic-4:	GGGG	HWC-HWC-HWC-HWC->
+
+-----------4q9q-----------
+57	G	R	22	G	R	W:HC	61	G	R	H:WC
+26	G	R	22	G	R	H:WC	61	G	R	W:HC
+Cyclic-4:	GGGG	HWC-HWC-HWC-HWC->
+
+54	G	R	23	G	R	W:HC	59	G	R	H:WC
+27	G	R	23	G	R	H:WC	59	G	R	W:HC
+Cyclic-4:	GGGG	HWC-HWC-HWC-HWC->
+
+-----------4u51-pdb-bundle3-----------
+1488	G	d	1495	C	d	S:SC	1518	C	d	W:WC
+1512	G	d	1495	C	d	W:WC	1518	C	d	S:SC
+Cyclic-4:	CGCG	SSC-WWC-SSC-WWC->
+
+-----------4u24-pdb-bundle3-----------
+1149	C	A	1280	A	A	S:WC	1124	G	A	W:WC
+1125	U	A	1280	A	A	W:HC	1124	G	A	H:SC
+Cyclic-4:	ACGU	WSC-WWC-SHC-WHC->
+
+-----------4u24-----------
+1149	C	A	1280	A	A	S:WC	1124	G	A	W:WC
+1125	U	A	1280	A	A	W:HC	1124	G	A	H:SC
+Cyclic-4:	ACGU	WSC-WWC-SHC-WHC->
+
+-----------4u3u-pdb-bundle3-----------
+1488	G	d	1495	C	d	S:SC	1518	C	d	W:WC
+1512	G	d	1495	C	d	W:WC	1518	C	d	S:SC
+Cyclic-4:	CGCG	SSC-WWC-SSC-WWC->
+
+-----------4u6f-pdb-bundle3-----------
+1488	G	d	1495	C	d	S:SC	1518	C	d	W:WC
+1512	G	d	1495	C	d	W:WC	1518	C	d	S:SC
+Cyclic-4:	CGCG	SSC-WWC-SSC-WWC->
+
+-----------4v54-pdb-bundle3-----------
+1149	C	K	1280	A	K	S:WC	1124	G	K	W:WC
+1125	U	K	1280	A	K	W:HC	1124	G	K	H:SC
+Cyclic-4:	ACGU	WSC-WWC-SHC-WHC->
+
+-----------4qk9-----------
+3	C	A	73	A	A	S:WC	113	G	A	W:WC
+114	U	A	73	A	A	W:HC	113	G	A	H:SC
+Cyclic-4:	ACGU	WSC-WWC-SHC-WHC->
+
+-----------4v7t-----------
+1149	C	A	1280	A	A	S:WC	1124	G	A	W:WC
+1125	U	A	1280	A	A	W:HC	1124	G	A	H:SC
+Cyclic-4:	ACGU	WSC-WWC-SHC-WHC->
+
+-----------4u4u-----------
+1488	G	A	1495	C	A	S:SC	1518	C	A	W:WC
+1512	G	A	1495	C	A	W:WC	1518	C	A	S:SC
+Cyclic-4:	CGCG	SSC-WWC-SSC-WWC->
+
+-----------4z8c-pdb-bundle4-----------
+1132	C	A	1262	A	A	S:WC	1107	G	A	W:WC
+1108	U	A	1262	A	A	H:HC	1107	G	A	W:SC
+Cyclic-4:	ACGU	WSC-WWC-SWC-HHC->
+
+-----------4z8c-pdb-bundle2-----------
+1132	C	A	1262	A	A	S:WC	1107	G	A	W:WC
+1108	U	A	1262	A	A	W:HC	1107	G	A	H:SC
+Cyclic-4:	ACGU	WSC-WWC-SHC-WHC->
+
+-----------4wra-----------
+1255	G	A	1259	C	A	S:SC	1282	C	A	W:WC
+1276	G	A	1259	C	A	W:WC	1282	C	A	S:SC
+Cyclic-4:	CGCG	SSC-WWC-SSC-WWC->
+
+-----------4rne-----------
+405	G	D	105	G	A	W:HC	305	G	C	H:WC
+205	G	B	105	G	A	H:WC	305	G	C	W:HC
+Cyclic-4:	GGGG	HWC-HWC-HWC-HWC->
+
+404	G	D	104	G	A	W:HC	304	G	C	H:WC
+204	G	B	104	G	A	H:WC	304	G	C	W:HC
+Cyclic-4:	GGGG	HWC-HWC-HWC-HWC->
+
+403	G	D	103	G	A	W:HC	303	G	C	H:WC
+203	G	B	103	G	A	H:WC	303	G	C	W:HC
+Cyclic-4:	GGGG	HWC-HWC-HWC-HWC->
+
+402	G	D	102	G	A	W:HC	302	G	C	H:WC
+202	G	B	102	G	A	H:WC	302	G	C	W:HC
+Cyclic-4:	GGGG	HWC-HWC-HWC-HWC->
+
+-----------4v4h-pdb-bundle3-----------
+1149	C	A	1280	A	A	S:WC	1124	G	A	W:WC
+1125	U	A	1280	A	A	W:HC	1124	G	A	H:SC
+Cyclic-4:	ACGU	WSC-WWC-SHC-WHC->
+
+-----------4jya-----------
+1237	G	A	1241	C	A	S:SC	1264	C	A	W:WC
+1258	G	A	1241	C	A	W:WC	1264	C	A	S:SC
+Cyclic-4:	CGCG	SSC-WWC-SSC-WWC->
+
+-----------4kze-----------
+57	G	R	22	G	R	W:HC	61	G	R	H:WC
+26	G	R	22	G	R	H:WC	61	G	R	W:HC
+Cyclic-4:	GGGG	HWC-HWC-HWC-HWC->
+
+54	G	R	23	G	R	W:HC	59	G	R	H:WC
+27	G	R	23	G	R	H:WC	59	G	R	W:HC
+Cyclic-4:	GGGG	HWC-HWC-HWC-HWC->
+
+-----------4kzd-----------
+57	G	R	22	G	R	W:HC	61	G	R	H:WC
+26	G	R	22	G	R	H:WC	61	G	R	W:HC
+Cyclic-4:	GGGG	HWC-HWC-HWC-HWC->
+
+54	G	R	23	G	R	W:HC	59	G	R	H:WC
+27	G	R	23	G	R	H:WC	59	G	R	W:HC
+Cyclic-4:	GGGG	HWC-HWC-HWC-HWC->
+
+-----------4v9h-----------
+1149	C	A	1280	A	A	S:WC	1124	G	A	W:WC
+1125	U	A	1280	A	A	W:HC	1124	G	A	H:SC
+Cyclic-4:	ACGU	WSC-WWC-SHC-WHC->
+
+-----------4v9l-----------
+1255	G	T	1259	C	T	S:SC	1282	C	T	W:WC
+1276	G	T	1259	C	T	W:WC	1282	C	T	S:SC
+Cyclic-4:	CGCG	SSC-WWC-SSC-WWC->
+
+-----------4v50-----------
+1149	C	A	1280	A	A	S:WC	1124	G	A	W:WC
+1125	U	A	1280	A	A	W:HC	1124	G	A	H:SC
+Cyclic-4:	ACGU	WSC-WWC-SHC-WHC->
+
+-----------4y4o-pdb-bundle4-----------
+1149	C	A	1280	A	A	S:WC	1124	G	A	W:WC
+1125	U	A	1280	A	A	H:HC	1124	G	A	W:SC
+Cyclic-4:	ACGU	WSC-WWC-SWC-HHC->
+
+-----------4y4o-pdb-bundle2-----------
+1149	C	A	1280	A	A	S:WC	1124	G	A	W:WC
+1125	U	A	1280	A	A	W:HC	1124	G	A	H:SC
+Cyclic-4:	ACGU	WSC-WWC-SHC-WHC->
+
+-----------4u26-pdb-bundle3-----------
+1149	C	A	1280	A	A	S:WC	1124	G	A	W:WC
+1125	U	A	1280	A	A	W:HC	1124	G	A	H:SC
+Cyclic-4:	ACGU	WSC-WWC-SHC-WHC->
+
+-----------4v64-----------
+1149	C	A	1280	A	A	S:WC	1124	G	A	W:WC
+1125	U	A	1280	A	A	W:HC	1124	G	A	H:SC
+Cyclic-4:	ACGU	WSC-WWC-SHC-WHC->
+
+-----------4w2g-----------
+1149	C	A	1280	A	A	S:WC	1124	G	A	W:WC
+1125	U	A	1280	A	A	W:HC	1124	G	A	H:SC
+Cyclic-4:	ACGU	WSC-WWC-SHC-WHC->
+
+-----------4w2f-----------
+1149	C	A	1280	A	A	S:WC	1124	G	A	W:WC
+1125	U	A	1280	A	A	W:HC	1124	G	A	H:SC
+Cyclic-4:	ACGU	WSC-WWC-SHC-WHC->
+
+-----------4v6c-----------
+1149	C	U	1280	A	U	S:WC	1124	G	U	W:WC
+1125	U	U	1280	A	U	W:HC	1124	G	U	H:SC
+Cyclic-4:	ACGU	WSC-WWC-SHC-WHC->
+
+-----------4v50-pdb-bundle3-----------
+1149	C	A	1280	A	A	S:WC	1124	G	A	W:WC
+1125	U	A	1280	A	A	W:HC	1124	G	A	H:SC
+Cyclic-4:	ACGU	WSC-WWC-SHC-WHC->
+
+-----------4v9s-pdb-bundle3-----------
+1149	C	A	1280	A	A	S:WC	1124	G	A	W:WC
+1125	U	A	1280	A	A	H:HC	1124	G	A	W:SC
+Cyclic-4:	ACGU	WSC-WWC-SWC-HHC->
+
+-----------4v7v-----------
+1149	C	A	1280	A	A	S:WC	1124	G	A	W:WC
+1125	U	A	1280	A	A	W:HC	1124	G	A	H:SC
+Cyclic-4:	ACGU	WSC-WWC-SHC-WHC->
+
+-----------4v7u-----------
+1149	C	A	1280	A	A	S:WC	1124	G	A	W:WC
+1125	U	A	1280	A	A	W:HC	1124	G	A	H:SC
+Cyclic-4:	ACGU	WSC-WWC-SHC-WHC->
+
+-----------4v7s-----------
+1149	C	A	1280	A	A	S:WC	1124	G	A	W:WC
+1125	U	A	1280	A	A	W:HC	1124	G	A	H:SC
+Cyclic-4:	ACGU	WSC-WWC-SHC-WHC->
+
+-----------4zer-pdb-bundle2-----------
+1149	C	A	1280	A	A	S:WC	1124	G	A	W:WC
+1125	U	A	1280	A	A	W:HC	1124	G	A	H:SC
+Cyclic-4:	ACGU	WSC-WWC-SHC-WHC->
+
+-----------4woi-pdb-bundle4-----------
+1149	C	A	1280	A	A	S:WC	1124	G	A	W:WC
+1125	U	A	1280	A	A	W:HC	1124	G	A	H:SC
+Cyclic-4:	ACGU	WSC-WWC-SHC-WHC->
+
+-----------4v64-pdb-bundle3-----------
+1149	C	A	1280	A	A	S:WC	1124	G	A	W:WC
+1125	U	A	1280	A	A	W:HC	1124	G	A	H:SC
+Cyclic-4:	ACGU	WSC-WWC-SHC-WHC->
+
+84

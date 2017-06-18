@@ -1,0 +1,308 @@
+-----------2rp0-----------
+15	C	A	27	A	A	S:WC	8	G	A	W:WC			8	G	A	26	A	A	S:WT
+Linear:	ACGA	WSC-WWC-SWT
+
+15	C	A	8	G	A	W:WC	27	A	A	S:WC			27	A	A	9	U	A	H:WC
+Linear:	GCAU	WWC-SWC-HWC
+
+-----------2rp1-----------
+15	C	A	27	A	A	S:WC	8	G	A	W:WC			8	G	A	26	A	A	S:WT
+Linear:	ACGA	WSC-WWC-SWT
+
+15	C	A	8	G	A	W:WC	27	A	A	S:WC			27	A	A	9	U	A	H:WC
+Linear:	GCAU	WWC-SWC-HWC
+
+-----------1my9-----------
+10	G	A	12	A	A	S:HT	4	G	A	H:WC			4	G	A	1	G	A	H:WC
+Linear:	AGGG	HST-HWC-HWC
+
+14	G	A	2	G	A	W:HC	11	G	A	H:WC			11	G	A	5	G	A	H:WC
+Linear:	GGGG	HWC-HWC-HWC
+
+24	G	B	26	A	B	S:HT	18	G	B	H:WC			18	G	B	15	G	B	H:WC
+Linear:	AGGG	HST-HWC-HWC
+
+15	G	B	17	A	B	S:HT	18	G	B	W:HC			18	G	B	24	G	B	W:HC
+Linear:	AGGG	HST-WHC-WHC
+
+24	G	B	27	G	B	W:HC	18	G	B	H:WC			18	G	B	15	G	B	H:WC
+Linear:	GGGG	HWC-HWC-HWC
+
+4	G	A	10	G	A	W:HC	1	G	A	H:WC			1	G	A	13	G	A	H:WC
+Linear:	GGGG	HWC-HWC-HWC
+
+1	G	A	3	A	A	S:HT	4	G	A	W:HC			4	G	A	10	G	A	W:HC
+Linear:	AGGG	HST-WHC-WHC
+
+-----------1esy-----------
+14	U	A	15	A	A	S:HC	16	C	A	S:HC			16	C	A	4	G	A	W:WC
+Linear:	AUCG	HSC-SHC-WWC
+
+-----------1oln-----------
+1055	G	C	1104	C	C	W:WC	1085	A	C	S:ST			1085	A	C	1083	U	C	H:ST
+Linear:	CGAU	WWC-SST-HST
+
+-----------2ap0-----------
+5	U	A	16	A	A	W:WC	21	A	A	S:HC			21	A	A	17	C	A	W:SC
+Linear:	AUAC	WWC-SHC-WSC
+
+16	A	A	22	A	A	S:WC	5	U	A	W:WC			5	U	A	21	A	A	S:HC
+Linear:	AAUA	WSC-WWC-SHC
+
+17	C	A	4	G	A	W:WC	21	A	A	S:WC			21	A	A	5	U	A	H:SC
+Linear:	GCAU	WWC-SWC-HSC
+
+15	C	A	24	A	A	S:WC	6	G	A	W:WC			6	G	A	23	A	A	S:WT
+Linear:	ACGA	WSC-WWC-SWT
+
+-----------2ap5-----------
+17	C	A	4	G	A	W:WC	21	A	A	S:WC			21	A	A	5	U	A	H:SC
+Linear:	GCAU	WWC-SWC-HSC
+
+14	C	A	27	A	A	S:WC	7	G	A	W:WC			7	G	A	26	A	A	S:WT
+Linear:	ACGA	WSC-WWC-SWT
+
+15	C	A	24	A	A	S:WC	6	G	A	W:WC			6	G	A	23	A	A	S:WT
+Linear:	ACGA	WSC-WWC-SWT
+
+5	U	A	16	A	A	W:WC	21	A	A	S:HC			21	A	A	17	C	A	W:SC
+Linear:	AUAC	WWC-SHC-WSC
+
+16	A	A	22	A	A	S:WC	5	U	A	W:WC			5	U	A	21	A	A	S:HC
+Linear:	AAUA	WSC-WWC-SHC
+
+-----------2k96-----------
+116	C	A	173	A	A	S:WC	98	G	A	W:WC			98	G	A	172	A	A	S:WT
+Linear:	ACGA	WSC-WWC-SWT
+
+116	C	A	98	G	A	W:WC	173	A	A	S:WC			173	A	A	99	U	A	H:WC
+Linear:	GCAU	WWC-SWC-HWC
+
+-----------2k95-----------
+116	C	A	173	A	A	S:WC	98	G	A	W:WC			98	G	A	172	A	A	S:WT
+Linear:	ACGA	WSC-WWC-SWT
+
+98	G	A	172	A	A	S:WT	99	U	A	S:HC			99	U	A	173	A	A	W:HC
+Linear:	AGUA	WST-SHC-WHC
+
+-----------2ru7-----------
+13	G	B	15	A	B	S:HT	16	G	B	W:HC			16	G	B	19	G	B	W:HC
+Linear:	AGGG	HST-WHC-WHC
+
+13	G	B	15	A	B	S:HT	16	G	B	W:HC			16	G	B	18	A	B	S:WT
+Linear:	AGGA	HST-WHC-SWT
+
+13	G	B	15	A	B	S:HT	22	G	B	H:WC			22	G	B	19	G	B	H:WC
+Linear:	AGGG	HST-HWC-HWC
+
+11	G	A	12	A	A	S:SC	8	G	A	H:WC			8	G	A	5	G	A	H:WC
+Linear:	AGGG	SSC-HWC-HWC
+
+11	G	A	12	A	A	S:SC	2	G	A	W:HC			2	G	A	5	G	A	W:HC
+Linear:	AGGG	SSC-WHC-WHC
+
+19	G	B	21	A	B	S:HT	16	G	B	H:WC			16	G	B	18	A	B	S:WT
+Linear:	AGGA	HST-HWC-SWT
+
+19	G	B	21	A	B	S:HT	16	G	B	H:WC			16	G	B	13	G	B	H:WC
+Linear:	AGGG	HST-HWC-HWC
+
+19	G	B	21	A	B	S:HT	22	G	B	W:HC			22	G	B	13	G	B	W:HC
+Linear:	AGGG	HST-WHC-WHC
+
+1	G	A	3	A	A	S:HT	10	G	A	H:WC			10	G	A	7	G	A	H:WC
+Linear:	AGGG	HST-HWC-HWC
+
+1	G	A	3	A	A	S:HT	4	G	A	W:HC			4	G	A	6	A	A	S:WT
+Linear:	AGGA	HST-WHC-SWT
+
+1	G	A	3	A	A	S:HT	4	G	A	W:HC			4	G	A	7	G	A	W:HC
+Linear:	AGGG	HST-WHC-WHC
+
+16	G	B	18	A	B	S:WT	19	G	B	W:HC			19	G	B	22	G	B	W:HC
+Linear:	AGGG	WST-WHC-WHC
+
+16	G	B	18	A	B	S:WT	13	G	B	H:WC			13	G	B	22	G	B	H:WC
+Linear:	AGGG	WST-HWC-HWC
+
+7	G	A	9	A	A	S:HT	4	G	A	H:WC			4	G	A	6	A	A	S:WT
+Linear:	AGGA	HST-HWC-SWT
+
+4	G	A	6	A	A	S:WT	7	G	A	W:HC			7	G	A	10	G	A	W:HC
+Linear:	AGGG	WST-WHC-WHC
+
+4	G	A	6	A	A	S:WT	1	G	A	H:WC			1	G	A	10	G	A	H:WC
+Linear:	AGGG	WST-HWC-HWC
+
+7	G	A	9	A	A	S:HT	10	G	A	W:HC			10	G	A	1	G	A	W:HC
+Linear:	AGGG	HST-WHC-WHC
+
+7	G	A	9	A	A	S:HT	4	G	A	H:WC			4	G	A	1	G	A	H:WC
+Linear:	AGGG	HST-HWC-HWC
+
+-----------2kpc-----------
+12	U	A	6	A	A	W:WC	7	C	A	W:WC			7	C	A	11	U	A	W:WC
+Linear:	AUCU	WWC-WWC-WWC
+
+-----------2l1v-----------
+27	A	A	5	A	A	H:SC	23	C	A	W:SC			23	C	A	4	G	A	W:WC
+Linear:	AACG	SHC-WSC-WWC
+
+27	A	A	23	C	A	W:SC	5	A	A	H:SC			5	A	A	22	U	A	W:WC
+Linear:	CAAU	SWC-HSC-WWC
+
+20	C	A	7	G	A	W:WC	31	A	A	S:WC			31	A	A	8	U	A	H:WC
+Linear:	GCAU	WWC-SWC-HWC
+
+34	U	A	12	A	A	W:WC	16	A	A	S:WC			16	A	A	17	U	A	S:HC
+Linear:	AUAU	WWC-SWC-SHC
+
+5	A	A	27	A	A	S:HC	22	U	A	W:WC			22	U	A	28	A	A	S:WC
+Linear:	AAUA	HSC-WWC-SWC
+
+20	C	A	31	A	A	S:WC	7	G	A	W:WC			7	G	A	30	A	A	S:WT
+Linear:	ACGA	WSC-WWC-SWT
+
+-----------1yg3-----------
+17	C	A	21	A	A	S:WC	4	G	A	W:WC			4	G	A	20	A	A	S:WT
+Linear:	ACGA	WSC-WWC-SWT
+
+-----------1kpy-----------
+15	C	A	27	A	A	S:WC	8	G	A	W:WC			8	G	A	26	A	A	S:WT
+Linear:	ACGA	WSC-WWC-SWT
+
+-----------2adt-----------
+51	G	B	78	C	B	W:WC	23	A	A	S:ST			23	A	A	20	G	A	H:ST
+Linear:	CGAG	WWC-SST-HST
+
+8	G	A	35	C	A	W:WC	66	A	B	S:WT			66	A	B	63	G	B	H:ST
+Linear:	CGAG	WWC-SWT-HST
+
+-----------2rqj-----------
+7	G	A	9	A	A	S:HT	4	G	A	H:WC			4	G	A	1	G	A	H:WC
+Linear:	AGGG	HST-HWC-HWC
+
+7	G	A	9	A	A	S:HT	10	G	A	W:HC			10	G	A	1	G	A	W:HC
+Linear:	AGGG	HST-WHC-WHC
+
+13	G	B	15	A	B	S:HT	16	G	B	W:HC			16	G	B	19	G	B	W:HC
+Linear:	AGGG	HST-WHC-WHC
+
+13	G	B	15	A	B	S:HT	22	G	B	H:WC			22	G	B	19	G	B	H:WC
+Linear:	AGGG	HST-HWC-HWC
+
+19	G	B	21	A	B	S:HT	16	G	B	H:WC			16	G	B	13	G	B	H:WC
+Linear:	AGGG	HST-HWC-HWC
+
+19	G	B	21	A	B	S:HT	22	G	B	W:HC			22	G	B	13	G	B	W:HC
+Linear:	AGGG	HST-WHC-WHC
+
+1	G	A	3	A	A	S:HT	10	G	A	H:WC			10	G	A	7	G	A	H:WC
+Linear:	AGGG	HST-HWC-HWC
+
+1	G	A	3	A	A	S:HT	4	G	A	W:HC			4	G	A	7	G	A	W:HC
+Linear:	AGGG	HST-WHC-WHC
+
+-----------2jq7-----------
+1055	G	B	1104	C	B	W:WC	1085	A	B	S:ST			1085	A	B	1083	U	B	H:ST
+Linear:	CGAU	WWC-SST-HST
+
+-----------2i7z-----------
+51	G	B	78	C	B	W:WC	23	A	A	S:ST			23	A	A	20	G	A	H:ST
+Linear:	CGAG	WWC-SST-HST
+
+8	G	A	35	C	A	W:WC	66	A	B	S:ST			66	A	B	63	G	B	H:ST
+Linear:	CGAG	WWC-SST-HST
+
+-----------1kpz-----------
+15	C	A	27	A	A	S:WC	8	G	A	W:WC			8	G	A	26	A	A	S:WT
+Linear:	ACGA	WSC-WWC-SWT
+
+15	C	A	8	G	A	W:WC	27	A	A	S:WC			27	A	A	9	U	A	H:WC
+Linear:	GCAU	WWC-SWC-HWC
+
+-----------2i7e-----------
+51	G	B	78	C	B	W:WC	23	A	A	S:ST			23	A	A	20	G	A	H:ST
+Linear:	CGAG	WWC-SST-HST
+
+8	G	A	35	C	A	W:WC	66	A	B	S:ST			66	A	B	63	G	B	H:ST
+Linear:	CGAG	WWC-SST-HST
+
+-----------1f6u-----------
+214	U	B	215	A	B	S:HC	216	C	B	S:HC			216	C	B	204	G	B	W:WC
+Linear:	AUCG	HSC-SHC-WWC
+
+-----------2rsk-----------
+7	G	A	9	A	A	S:HT	4	G	A	H:WC			4	G	A	1	G	A	H:WC
+Linear:	AGGG	HST-HWC-HWC
+
+7	G	A	9	A	A	S:HT	10	G	A	W:HC			10	G	A	1	G	A	W:HC
+Linear:	AGGG	HST-WHC-WHC
+
+13	G	B	15	A	B	S:HT	16	G	B	W:HC			16	G	B	19	G	B	W:HC
+Linear:	AGGG	HST-WHC-WHC
+
+13	G	B	15	A	B	S:HT	16	G	B	W:HC			16	G	B	18	A	B	S:ST
+Linear:	AGGA	HST-WHC-SST
+
+13	G	B	15	A	B	S:HT	22	G	B	H:WC			22	G	B	19	G	B	H:WC
+Linear:	AGGG	HST-HWC-HWC
+
+7	G	A	9	A	A	S:HT	4	G	A	H:WC			4	G	A	6	A	A	S:ST
+Linear:	AGGA	HST-HWC-SST
+
+4	G	A	6	A	A	S:ST	7	G	A	W:HC			7	G	A	10	G	A	W:HC
+Linear:	AGGG	SST-WHC-WHC
+
+1	G	A	3	A	A	S:HT	4	G	A	W:HC			4	G	A	6	A	A	S:ST
+Linear:	AGGA	HST-WHC-SST
+
+4	G	A	6	A	A	S:ST	1	G	A	H:WC			1	G	A	10	G	A	H:WC
+Linear:	AGGG	SST-HWC-HWC
+
+19	G	B	21	A	B	S:HT	16	G	B	H:WC			16	G	B	18	A	B	S:ST
+Linear:	AGGA	HST-HWC-SST
+
+19	G	B	21	A	B	S:HT	16	G	B	H:WC			16	G	B	13	G	B	H:WC
+Linear:	AGGG	HST-HWC-HWC
+
+19	G	B	21	A	B	S:HT	22	G	B	W:HC			22	G	B	13	G	B	W:HC
+Linear:	AGGG	HST-WHC-WHC
+
+1	G	A	3	A	A	S:HT	10	G	A	H:WC			10	G	A	7	G	A	H:WC
+Linear:	AGGG	HST-HWC-HWC
+
+1	G	A	3	A	A	S:HT	4	G	A	W:HC			4	G	A	7	G	A	W:HC
+Linear:	AGGG	HST-WHC-WHC
+
+16	G	B	18	A	B	S:ST	19	G	B	W:HC			19	G	B	22	G	B	W:HC
+Linear:	AGGG	SST-WHC-WHC
+
+16	G	B	18	A	B	S:ST	13	G	B	H:WC			13	G	B	22	G	B	H:WC
+Linear:	AGGG	SST-HWC-HWC
+
+-----------2jyf-----------
+51	G	B	78	C	B	W:WC	23	A	A	S:ST			23	A	A	20	G	A	H:ST
+Linear:	CGAG	WWC-SST-HST
+
+8	G	A	35	C	A	W:WC	66	A	B	S:ST			66	A	B	63	G	B	H:ST
+Linear:	CGAG	WWC-SST-HST
+
+-----------2jyj-----------
+51	G	B	78	C	B	W:WC	23	A	A	S:ST			23	A	A	20	G	A	H:ST
+Linear:	CGAG	WWC-SST-HST
+
+8	G	A	35	C	A	W:WC	66	A	B	S:ST			66	A	B	63	G	B	H:ST
+Linear:	CGAG	WWC-SST-HST
+
+51	G	B	22	A	A	S:WT	23	A	A	S:ST			23	A	A	20	G	A	H:ST
+Linear:	AGAG	WST-SST-HST
+
+8	G	A	65	A	B	S:WT	66	A	B	S:ST			66	A	B	63	G	B	H:ST
+Linear:	AGAG	WST-SST-HST
+
+-----------1yg4-----------
+15	C	A	24	A	A	S:WC	6	G	A	W:WC			6	G	A	23	A	A	S:WT
+Linear:	ACGA	WSC-WWC-SWT
+
+94

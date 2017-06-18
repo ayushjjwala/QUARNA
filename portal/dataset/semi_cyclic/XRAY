@@ -1,0 +1,776 @@
+-----------4dv7-----------
+quad:	547	A	A	498	U	A	H:WT	397	A	A	S:HC	37	U	A	W:ST
+triplet:	397	A	A	547	A	A	H:SC	37	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------4v5r-pdb-bundle3-----------
+quad:	547	A	A	498	U	A	H:WT	397	A	A	S:HC	37	U	A	W:ST
+triplet:	397	A	A	547	A	A	H:SC	37	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------2uub-----------
+quad:	547	A	A	498	U	A	H:WT	397	A	A	S:HC	37	U	A	W:ST
+triplet:	397	A	A	547	A	A	H:SC	37	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------4jv5-----------
+quad:	547	A	A	498	U	A	H:WT	397	A	A	S:HC	37	U	A	W:ST
+triplet:	397	A	A	547	A	A	H:SC	37	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------2vqe-----------
+quad:	547	A	A	498	U	A	H:WT	397	A	A	S:HC	37	U	A	W:ST
+triplet:	397	A	A	547	A	A	H:SC	37	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------4v7v-pdb-bundle2-----------
+quad:	201	C	A	194	G	A	W:WC	195	A	A	W:WC	250	G	A	S:WT
+triplet:	195	A	A	201	C	A	W:WC	250	G	A	S:SC
+Cyclic-3:	C[<AG>G]	WWC/SWT/WWC,SSC
+
+-----------4wra-pdb-bundle3-----------
+quad:	547	A	A	497	U	A	H:WT	397	A	A	S:HC	37	U	A	W:ST
+triplet:	397	A	A	547	A	A	H:SC	37	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------4wzd-----------
+quad:	547	A	A	497	U	A	H:WT	397	A	A	S:HC	37	U	A	W:ST
+triplet:	397	A	A	547	A	A	H:SC	37	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------4lf8-----------
+quad:	547	A	A	498	U	A	H:WT	397	A	A	S:HC	37	U	A	W:ST
+triplet:	397	A	A	547	A	A	H:SC	37	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------4lf6-----------
+quad:	547	A	A	498	U	A	H:WT	397	A	A	S:HC	37	U	A	W:ST
+triplet:	397	A	A	547	A	A	H:SC	37	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------2o44-----------
+quad:	2060	A	A	2058	U	A	H:WC	2413	A	A	S:SC	2222	U	A	W:WC
+triplet:	2413	A	A	2060	A	A	S:SC	2222	U	A	W:ST
+Cyclic-3:	A[<AU>U]	SSC/WWC/HWC,WST
+
+-----------1vy5-pdb-bundle3-----------
+quad:	547	A	A	498	U	A	H:WT	397	A	A	S:HC	37	U	A	W:ST
+triplet:	397	A	A	547	A	A	H:SC	37	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------4v9o-pdb-bundle3-----------
+quad:	201	C	A	194	G	A	W:WC	195	A	A	W:WC	250	G	A	S:WT
+triplet:	195	A	A	201	C	A	W:WC	250	G	A	S:SC
+Cyclic-3:	C[<AG>G]	WWC/SWT/WWC,SSC
+
+-----------1wz2-----------
+quad:	924	A	D	959	U	D	H:WT	914	A	D	S:WC	908	U	D	W:ST
+triplet:	914	A	D	924	A	D	W:SC	908	U	D	H:WT
+Cyclic-3:	A[<AU>U]	SWC/WST/HWT,HWT
+
+-----------4v9r-pdb-bundle3-----------
+quad:	547	A	A	498	U	A	H:WT	397	A	A	S:HC	37	U	A	W:ST
+triplet:	397	A	A	547	A	A	H:SC	37	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------4v7z-----------
+quad:	368	U	A	55	A	A	W:WT	356	A	A	S:SC	56	U	A	W:WT
+triplet:	356	A	A	368	U	A	S:SC	56	U	A	W:WC
+Cyclic-3:	U[<AU>A]	SSC/WWT/WWT,WWC
+
+-----------2hhh-----------
+quad:	531	A	A	482	U	A	H:WT	393	A	A	S:HC	38	U	A	W:ST
+triplet:	393	A	A	531	A	A	H:SC	38	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------4v8f-pdb-bundle2-----------
+quad:	547	A	Z	497	U	Z	H:WT	397	A	Z	S:HC	37	U	Z	W:ST
+triplet:	397	A	Z	547	A	Z	H:SC	37	U	Z	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------4z8c-pdb-bundle2-----------
+quad:	531	A	A	482	U	A	H:WT	393	A	A	S:HC	38	U	A	W:ST
+triplet:	393	A	A	531	A	A	H:SC	38	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------4w2i-pdb-bundle3-----------
+quad:	547	A	A	498	U	A	H:WT	397	A	A	S:HC	37	U	A	W:ST
+triplet:	397	A	A	547	A	A	H:SC	37	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------4u25-pdb-bundle4-----------
+quad:	201	C	A	194	G	A	W:WC	195	A	A	W:WC	250	G	A	S:WT
+triplet:	195	A	A	201	C	A	W:WC	250	G	A	S:SC
+Cyclic-3:	C[<AG>G]	WWC/SWT/WWC,SSC
+
+-----------4duy-----------
+quad:	547	A	A	498	U	A	H:WT	397	A	A	S:HC	37	U	A	W:ST
+triplet:	397	A	A	547	A	A	H:SC	37	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------4v9c-pdb-bundle4-----------
+quad:	201	C	A	194	G	A	W:WC	195	A	A	W:WC	250	G	A	S:WT
+triplet:	195	A	A	201	C	A	W:WC	250	G	A	S:SC
+Cyclic-3:	C[<AG>G]	WWC/SWT/WWC,SSC
+
+-----------4zer-pdb-bundle4-----------
+quad:	547	A	A	498	U	A	H:WT	397	A	A	S:HC	37	U	A	W:ST
+triplet:	397	A	A	547	A	A	H:SC	37	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------4tue-----------
+quad:	547	A	A	497	U	A	H:WT	397	A	A	S:HC	37	U	A	W:ST
+triplet:	397	A	A	547	A	A	H:SC	37	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------4v51-----------
+quad:	547	A	A	498	U	A	H:WT	397	A	A	S:HC	37	U	A	W:ST
+triplet:	397	A	A	547	A	A	H:SC	37	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------2uxc-----------
+quad:	547	A	A	498	U	A	H:WT	397	A	A	S:HC	37	U	A	W:ST
+triplet:	397	A	A	547	A	A	H:SC	37	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------4v9i-----------
+quad:	547	A	A	498	U	A	H:WT	397	A	A	S:HC	37	U	A	W:ST
+triplet:	397	A	A	547	A	A	H:SC	37	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------4u27-pdb-bundle4-----------
+quad:	201	C	A	194	G	A	W:WC	195	A	A	W:WC	250	G	A	S:WT
+triplet:	195	A	A	201	C	A	W:WC	250	G	A	S:SC
+Cyclic-3:	C[<AG>G]	WWC/SWT/WWC,SSC
+
+-----------4v51-pdb-bundle3-----------
+quad:	547	A	A	498	U	A	H:WT	397	A	A	S:HC	37	U	A	W:ST
+triplet:	397	A	A	547	A	A	H:SC	37	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------4wqf-pdb-bundle2-----------
+quad:	547	A	A	498	U	A	H:WT	397	A	A	S:HC	37	U	A	W:ST
+triplet:	397	A	A	547	A	A	H:SC	37	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------4wzo-----------
+quad:	547	A	A	497	U	A	H:WT	397	A	A	S:HC	37	U	A	W:ST
+triplet:	397	A	A	547	A	A	H:SC	37	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------4v67-----------
+quad:	547	A	A	497	U	A	H:WT	397	A	A	S:HC	37	U	A	W:ST
+triplet:	397	A	A	547	A	A	H:SC	37	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------2uu9-----------
+quad:	547	A	A	498	U	A	H:WT	397	A	A	S:HC	37	U	A	W:ST
+triplet:	397	A	A	547	A	A	H:SC	37	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------4gkk-----------
+quad:	530	A	A	481	U	A	H:WT	392	A	A	S:HC	37	U	A	W:ST
+triplet:	392	A	A	530	A	A	H:SC	37	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------4wq1-pdb-bundle3-----------
+quad:	547	A	A	497	U	A	H:WT	397	A	A	S:HC	37	U	A	W:ST
+triplet:	397	A	A	547	A	A	H:SC	37	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------4v8i-----------
+quad:	547	A	A	498	U	A	H:WT	397	A	A	S:HC	37	U	A	W:ST
+triplet:	397	A	A	547	A	A	H:SC	37	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------4v9h-----------
+quad:	547	A	A	498	U	A	H:WT	397	A	A	S:HC	37	U	A	W:ST
+triplet:	397	A	A	547	A	A	H:SC	37	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------4dr3-----------
+quad:	547	A	A	498	U	A	H:WT	397	A	A	S:HC	37	U	A	W:ST
+triplet:	397	A	A	547	A	A	H:SC	37	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------2zzm-----------
+quad:	21	A	B	47	U	B	H:WT	14	A	B	S:WC	8	U	B	W:ST
+triplet:	14	A	B	21	A	B	W:SC	8	U	B	H:WT
+Cyclic-3:	A[<AU>U]	SWC/WST/HWT,HWT
+
+-----------4lf7-----------
+quad:	547	A	A	498	U	A	H:WT	397	A	A	S:HC	37	U	A	W:ST
+triplet:	397	A	A	547	A	A	H:SC	37	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------1vy7-pdb-bundle3-----------
+quad:	547	A	A	498	U	A	H:WT	397	A	A	S:HC	37	U	A	W:ST
+triplet:	397	A	A	547	A	A	H:SC	37	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------4w2g-pdb-bundle3-----------
+quad:	547	A	A	498	U	A	H:WT	397	A	A	S:HC	37	U	A	W:ST
+triplet:	397	A	A	547	A	A	H:SC	37	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------4lfb-----------
+quad:	547	A	A	498	U	A	H:WT	397	A	A	S:HC	37	U	A	W:ST
+triplet:	397	A	A	547	A	A	H:SC	37	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------3epk-----------
+quad:	21	A	E	47	U	E	H:ST	14	A	E	S:WC	8	U	E	W:ST
+triplet:	14	A	E	21	A	E	W:SC	8	U	E	H:WT
+Cyclic-3:	A[<AU>U]	SWC/WST/HST,HWT
+
+-----------4v83-pdb-bundle3-----------
+quad:	547	A	A	497	U	A	H:WT	397	A	A	S:HC	37	U	A	W:ST
+triplet:	397	A	A	547	A	A	H:SC	37	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------4u26-pdb-bundle4-----------
+quad:	201	C	A	194	G	A	W:WC	195	A	A	W:WC	250	G	A	S:WT
+triplet:	195	A	A	201	C	A	W:WC	250	G	A	S:SC
+Cyclic-3:	C[<AG>G]	WWC/SWT/WWC,SSC
+
+-----------4wt8-----------
+quad:	531	A	V	482	U	V	H:WT	393	A	V	S:HC	38	U	V	W:ST
+triplet:	393	A	V	531	A	V	H:SC	38	U	V	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------4v5s-----------
+quad:	547	A	A	498	U	A	H:WT	397	A	A	S:HC	37	U	A	W:ST
+triplet:	397	A	A	547	A	A	H:SC	37	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------4v9n-pdb-bundle2-----------
+quad:	201	C	A	194	G	A	W:WC	195	A	A	W:WC	250	G	A	S:WT
+triplet:	195	A	A	201	C	A	W:WC	250	G	A	S:SC
+Cyclic-3:	C[<AG>G]	WWC/SWT/WWC,SSC
+
+-----------4v9b-----------
+quad:	547	A	A	497	U	A	H:WT	397	A	A	S:HC	37	U	A	W:ST
+triplet:	397	A	A	547	A	A	H:SC	37	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------4z3s-pdb-bundle2-----------
+quad:	547	A	A	498	U	A	H:WT	397	A	A	S:HC	37	U	A	W:ST
+triplet:	397	A	A	547	A	A	H:SC	37	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------4l47-----------
+quad:	547	A	A	497	U	A	H:WT	397	A	A	S:HC	37	U	A	W:ST
+triplet:	397	A	A	547	A	A	H:SC	37	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------4b3s-----------
+quad:	547	A	A	498	U	A	H:WT	397	A	A	S:HC	37	U	A	W:ST
+triplet:	397	A	A	547	A	A	H:SC	37	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------4wro-pdb-bundle3-----------
+quad:	2077	A	A	2075	U	A	H:WC	2434	A	A	S:SC	2243	U	A	W:WC
+triplet:	2434	A	A	2077	A	A	S:SC	2243	U	A	W:ST
+Cyclic-3:	A[<AU>U]	SSC/WWC/HWC,WST
+
+-----------4y4p-pdb-bundle4-----------
+quad:	547	A	A	498	U	A	H:WT	397	A	A	S:HC	37	U	A	W:ST
+triplet:	397	A	A	547	A	A	H:SC	37	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------1vy7-----------
+quad:	547	A	A	498	U	A	H:WT	397	A	A	S:HC	37	U	A	W:ST
+triplet:	397	A	A	547	A	A	H:SC	37	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------4v7z-pdb-bundle3-----------
+quad:	368	U	A	55	A	A	W:WT	356	A	A	S:SC	56	U	A	W:WT
+triplet:	356	A	A	368	U	A	S:SC	56	U	A	W:WC
+Cyclic-3:	U[<AU>A]	SSC/WWT/WWT,WWC
+
+-----------4v5r-----------
+quad:	547	A	A	498	U	A	H:WT	397	A	A	S:HC	37	U	A	W:ST
+triplet:	397	A	A	547	A	A	H:SC	37	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------4v63-pdb-bundle3-----------
+quad:	547	A	A	497	U	A	H:WT	397	A	A	S:HC	37	U	A	W:ST
+triplet:	397	A	A	547	A	A	H:SC	37	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------4dr5-----------
+quad:	547	A	A	498	U	A	H:WT	397	A	A	S:HC	37	U	A	W:ST
+triplet:	397	A	A	547	A	A	H:SC	37	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------4v8e-pdb-bundle4-----------
+quad:	547	A	A	497	U	A	H:WT	397	A	A	S:HC	37	U	A	W:ST
+triplet:	397	A	A	547	A	A	H:SC	37	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------4v5a-pdb-bundle2-----------
+quad:	201	C	A	194	G	A	W:WC	195	A	A	W:WC	250	G	A	S:WT
+triplet:	195	A	A	201	C	A	W:WC	250	G	A	S:SC
+Cyclic-3:	C[<AG>G]	WWC/SWT/WWC,SSC
+
+-----------2uua-----------
+quad:	547	A	A	498	U	A	H:WT	397	A	A	S:HC	37	U	A	W:ST
+triplet:	397	A	A	547	A	A	H:SC	37	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------4v6a-pdb-bundle3-----------
+quad:	547	A	A	498	U	A	H:WT	397	A	A	S:HC	37	U	A	W:ST
+triplet:	397	A	A	547	A	A	H:SC	37	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------4v83-----------
+quad:	547	A	A	497	U	A	H:WT	397	A	A	S:HC	37	U	A	W:ST
+triplet:	397	A	A	547	A	A	H:SC	37	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------4v9n-----------
+quad:	547	A	A	498	U	A	H:WT	397	A	A	S:HC	37	U	A	W:ST
+triplet:	397	A	A	547	A	A	H:SC	37	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------1fjg-----------
+quad:	547	A	A	498	U	A	H:WT	397	A	A	S:HC	37	U	A	W:ST
+triplet:	397	A	A	547	A	A	H:SC	37	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------1hnx-----------
+quad:	547	A	A	498	U	A	H:WT	397	A	A	S:HC	37	U	A	W:ST
+triplet:	397	A	A	547	A	A	H:SC	37	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------4ji7-----------
+quad:	547	A	A	498	U	A	H:WT	397	A	A	S:HC	37	U	A	W:ST
+triplet:	397	A	A	547	A	A	H:SC	37	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------4lt8-pdb-bundle3-----------
+quad:	547	A	A	497	U	A	H:WT	397	A	A	S:HC	37	U	A	W:ST
+triplet:	397	A	A	547	A	A	H:SC	37	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------4k0k-----------
+quad:	531	A	A	482	U	A	H:WT	393	A	A	S:HC	38	U	A	W:ST
+triplet:	393	A	A	531	A	A	H:SC	38	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------4v63-pdb-bundle2-----------
+quad:	2630	G	A	2788	C	A	W:WC	2892	A	A	S:SC	2789	C	A	W:WC
+triplet:	2892	A	A	2630	G	A	S:SC	2789	C	A	W:ST
+Cyclic-3:	G[<AC>C]	SSC/WWC/WWC,WST
+
+quad:	201	C	A	194	G	A	W:WC	195	A	A	W:WC	250	G	A	S:WT
+triplet:	195	A	A	201	C	A	W:WC	250	G	A	S:SC
+Cyclic-3:	C[<AG>G]	WWC/SWT/WWC,SSC
+
+quad:	2892	A	A	2808	U	A	H:WT	2789	C	A	W:ST	2630	G	A	S:SC
+triplet:	2789	C	A	2892	A	A	S:WT	2630	G	A	W:WC
+Cyclic-3:	A[<CG>U]	WST/SSC/HWT,WWC
+
+-----------4ji1-----------
+quad:	547	A	A	498	U	A	H:WT	397	A	A	S:HC	37	U	A	W:ST
+triplet:	397	A	A	547	A	A	H:SC	37	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------4lsk-pdb-bundle3-----------
+quad:	547	A	A	497	U	A	H:WT	397	A	A	S:HC	37	U	A	W:ST
+triplet:	397	A	A	547	A	A	H:SC	37	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------4v9i-pdb-bundle3-----------
+quad:	531	A	A	482	U	A	H:WT	393	A	A	S:HC	38	U	A	W:ST
+triplet:	393	A	A	531	A	A	H:SC	38	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------4khp-----------
+quad:	531	A	A	482	U	A	H:WT	393	A	A	S:HC	38	U	A	W:ST
+triplet:	393	A	A	531	A	A	H:SC	38	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------4v9k-pdb-bundle2-----------
+quad:	201	C	A	194	G	A	W:WC	195	A	A	W:WC	250	G	A	S:WT
+triplet:	195	A	A	201	C	A	W:WC	250	G	A	S:SC
+Cyclic-3:	C[<AG>G]	WWC/SWT/WWC,SSC
+
+-----------1vy4-----------
+quad:	547	A	A	498	U	A	H:WT	397	A	A	S:HC	37	U	A	W:ST
+triplet:	397	A	A	547	A	A	H:SC	37	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------4wsm-----------
+quad:	547	A	A	497	U	A	H:WT	397	A	A	S:HC	37	U	A	W:ST
+triplet:	397	A	A	547	A	A	H:SC	37	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------4wu1-pdb-bundle3-----------
+quad:	547	A	A	497	U	A	H:WT	397	A	A	S:HC	37	U	A	W:ST
+triplet:	397	A	A	547	A	A	H:SC	37	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------4dv6-----------
+quad:	547	A	A	498	U	A	H:WT	397	A	A	S:HC	37	U	A	W:ST
+triplet:	397	A	A	547	A	A	H:SC	37	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------4w2f-pdb-bundle3-----------
+quad:	547	A	A	498	U	A	H:WT	397	A	A	S:HC	37	U	A	W:ST
+triplet:	397	A	A	547	A	A	H:SC	37	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------1n33-----------
+quad:	547	A	A	498	U	A	H:WT	397	A	A	S:HC	37	U	A	W:ST
+triplet:	397	A	A	547	A	A	H:SC	37	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------1xmo-----------
+quad:	547	A	A	498	U	A	H:WT	397	A	A	S:HC	37	U	A	W:ST
+triplet:	397	A	A	547	A	A	H:SC	37	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------4v8h-pdb-bundle3-----------
+quad:	547	A	A	498	U	A	H:WT	397	A	A	S:HC	37	U	A	W:ST
+triplet:	397	A	A	547	A	A	H:SC	37	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------4v9n-pdb-bundle3-----------
+quad:	547	A	A	498	U	A	H:WT	397	A	A	S:HC	37	U	A	W:ST
+triplet:	397	A	A	547	A	A	H:SC	37	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------4u26-pdb-bundle2-----------
+quad:	201	C	A	194	G	A	W:WC	195	A	A	W:WC	250	G	A	S:WT
+triplet:	195	A	A	201	C	A	W:WC	250	G	A	S:SC
+Cyclic-3:	C[<AG>G]	WWC/SWT/WWC,SSC
+
+-----------4v9s-pdb-bundle3-----------
+quad:	547	A	A	498	U	A	H:WT	397	A	A	S:HC	37	U	A	W:ST
+triplet:	397	A	A	547	A	A	H:SC	37	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------4w2f-----------
+quad:	547	A	A	498	U	A	H:WT	397	A	A	S:HC	37	U	A	W:ST
+triplet:	397	A	A	547	A	A	H:SC	37	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------4jya-----------
+quad:	531	A	A	482	U	A	H:WT	393	A	A	S:HC	38	U	A	W:ST
+triplet:	393	A	A	531	A	A	H:SC	38	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------4gkj-----------
+quad:	530	A	A	481	U	A	H:WT	392	A	A	S:HC	37	U	A	W:ST
+triplet:	392	A	A	530	A	A	H:SC	37	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------4v9c-pdb-bundle2-----------
+quad:	2077	A	A	2075	U	A	H:WC	2434	A	A	S:SC	2243	U	A	W:WC
+triplet:	2434	A	A	2077	A	A	S:SC	2243	U	A	W:ST
+Cyclic-3:	A[<AU>U]	SSC/WWC/HWC,WST
+
+-----------4v67-pdb-bundle3-----------
+quad:	547	A	A	497	U	A	H:WT	397	A	A	S:HC	37	U	A	W:ST
+triplet:	397	A	A	547	A	A	H:SC	37	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------2vqf-----------
+quad:	547	A	A	498	U	A	H:WT	397	A	A	S:HC	37	U	A	W:ST
+triplet:	397	A	A	547	A	A	H:SC	37	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------1hnz-----------
+quad:	547	A	A	498	U	A	H:WT	397	A	A	S:HC	37	U	A	W:ST
+triplet:	397	A	A	547	A	A	H:SC	37	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------4v9s-----------
+quad:	547	A	A	498	U	A	H:WT	397	A	A	S:HC	37	U	A	W:ST
+triplet:	397	A	A	547	A	A	H:SC	37	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------1n32-----------
+quad:	547	A	A	498	U	A	H:WT	397	A	A	S:HC	37	U	A	W:ST
+triplet:	397	A	A	547	A	A	H:SC	37	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------4ji0-----------
+quad:	547	A	A	498	U	A	H:WT	397	A	A	S:HC	37	U	A	W:ST
+triplet:	397	A	A	547	A	A	H:SC	37	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------4v9b-pdb-bundle3-----------
+quad:	547	A	A	497	U	A	H:WT	397	A	A	S:HC	37	U	A	W:ST
+triplet:	397	A	A	547	A	A	H:SC	37	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------4lf4-----------
+quad:	547	A	A	498	U	A	H:WT	397	A	A	S:HC	37	U	A	W:ST
+triplet:	397	A	A	547	A	A	H:SC	37	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------4www-pdb-bundle3-----------
+quad:	201	C	G	194	G	G	W:WC	195	A	G	W:WC	250	G	G	S:WT
+triplet:	195	A	G	201	C	G	W:WC	250	G	G	S:SC
+Cyclic-3:	C[<AG>G]	WWC/SWT/WWC,SSC
+
+-----------4dr6-----------
+quad:	547	A	A	498	U	A	H:WT	397	A	A	S:HC	37	U	A	W:ST
+triplet:	397	A	A	547	A	A	H:SC	37	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------4lnt-pdb-bundle3-----------
+quad:	547	A	A	497	U	A	H:WT	397	A	A	S:HC	37	U	A	W:ST
+triplet:	397	A	A	547	A	A	H:SC	37	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------4z3q-pdb-bundle4-----------
+quad:	547	A	A	498	U	A	H:WT	397	A	A	S:HC	37	U	A	W:ST
+triplet:	397	A	A	547	A	A	H:SC	37	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------4lf9-----------
+quad:	547	A	A	498	U	A	H:WT	397	A	A	S:HC	37	U	A	W:ST
+triplet:	397	A	A	547	A	A	H:SC	37	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------4v7m-----------
+quad:	547	A	A	498	U	A	H:WT	397	A	A	S:HC	37	U	A	W:ST
+triplet:	397	A	A	547	A	A	H:SC	37	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------4l47-pdb-bundle3-----------
+quad:	547	A	A	497	U	A	H:WT	397	A	A	S:HC	37	U	A	W:ST
+triplet:	397	A	A	547	A	A	H:SC	37	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------1vy5-----------
+quad:	547	A	A	498	U	A	H:WT	397	A	A	S:HC	37	U	A	W:ST
+triplet:	397	A	A	547	A	A	H:SC	37	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------4wqy-pdb-bundle2-----------
+quad:	547	A	A	498	U	A	H:WT	397	A	A	S:HC	37	U	A	W:ST
+triplet:	397	A	A	547	A	A	H:SC	37	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------4zer-pdb-bundle2-----------
+quad:	547	A	A	498	U	A	H:WT	397	A	A	S:HC	37	U	A	W:ST
+triplet:	397	A	A	547	A	A	H:SC	37	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------4v8d-pdb-bundle3-----------
+quad:	547	A	A	497	U	A	H:WT	397	A	A	S:HC	37	U	A	W:ST
+triplet:	397	A	A	547	A	A	H:SC	37	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------4ji3-----------
+quad:	547	A	A	498	U	A	H:WT	397	A	A	S:HC	37	U	A	W:ST
+triplet:	397	A	A	547	A	A	H:SC	37	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------4v84-pdb-bundle4-----------
+quad:	2077	A	A	2075	U	A	H:WC	2434	A	A	S:SC	2243	U	A	W:WC
+triplet:	2434	A	A	2077	A	A	S:SC	2243	U	A	W:ST
+Cyclic-3:	A[<AU>U]	SSC/WWC/HWC,WST
+
+-----------4aqy-----------
+quad:	547	A	A	498	U	A	H:WT	397	A	A	S:HC	37	U	A	W:ST
+triplet:	397	A	A	547	A	A	H:SC	37	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------4lt8-----------
+quad:	547	A	A	497	U	A	H:WT	397	A	A	S:HC	37	U	A	W:ST
+triplet:	397	A	A	547	A	A	H:SC	37	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------4lsk-----------
+quad:	547	A	A	497	U	A	H:WT	397	A	A	S:HC	37	U	A	W:ST
+triplet:	397	A	A	547	A	A	H:SC	37	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------4v63-pdb-bundle4-----------
+quad:	2630	G	A	2788	C	A	W:WC	2892	A	A	S:SC	2789	C	A	W:WC
+triplet:	2892	A	A	2630	G	A	S:SC	2789	C	A	W:ST
+Cyclic-3:	G[<AC>C]	SSC/WWC/WWC,WST
+
+quad:	201	C	A	194	G	A	W:WC	195	A	A	W:WC	250	G	A	S:WT
+triplet:	195	A	A	201	C	A	W:WC	250	G	A	S:SC
+Cyclic-3:	C[<AG>G]	WWC/SWT/WWC,SSC
+
+quad:	2892	A	A	2808	U	A	H:WT	2789	C	A	W:ST	2630	G	A	S:SC
+triplet:	2789	C	A	2892	A	A	S:WT	2630	G	A	W:WC
+Cyclic-3:	A[<CG>U]	WST/SSC/HWT,WWC
+
+-----------1xnq-----------
+quad:	547	A	A	498	U	A	H:WT	397	A	A	S:HC	37	U	A	W:ST
+triplet:	397	A	A	547	A	A	H:SC	37	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------4v95-pdb-bundle3-----------
+quad:	547	A	A	498	U	A	H:WT	397	A	A	S:HC	37	U	A	W:ST
+triplet:	397	A	A	547	A	A	H:SC	37	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------4b3m-----------
+quad:	547	A	A	498	U	A	H:WT	397	A	A	S:HC	37	U	A	W:ST
+triplet:	397	A	A	547	A	A	H:SC	37	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------4v87-pdb-bundle2-----------
+quad:	547	A	A	497	U	A	H:WT	397	A	A	S:HC	37	U	A	W:ST
+triplet:	397	A	A	547	A	A	H:SC	37	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+quad:	547	A	Z	497	U	Z	H:WT	397	A	Z	S:HC	37	U	Z	W:ST
+triplet:	397	A	Z	547	A	Z	H:SC	37	U	Z	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------1vy6-----------
+quad:	547	A	A	498	U	A	H:WT	397	A	A	S:HC	37	U	A	W:ST
+triplet:	397	A	A	547	A	A	H:SC	37	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------4v6c-pdb-bundle2-----------
+quad:	201	C	A	194	G	A	W:WC	195	A	A	W:WC	250	G	A	S:WT
+triplet:	195	A	A	201	C	A	W:WC	250	G	A	S:SC
+Cyclic-3:	C[<AG>G]	WWC/SWT/WWC,SSC
+
+-----------2uxb-----------
+quad:	547	A	A	498	U	A	H:WT	397	A	A	S:HC	37	U	A	W:ST
+triplet:	397	A	A	547	A	A	H:SC	37	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------4v8c-pdb-bundle3-----------
+quad:	547	A	Z	497	U	Z	H:WT	397	A	Z	S:HC	37	U	Z	W:ST
+triplet:	397	A	Z	547	A	Z	H:SC	37	U	Z	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------4wq1-pdb-bundle2-----------
+quad:	2077	A	A	2075	U	A	H:WC	2434	A	A	S:SC	2243	U	A	W:WC
+triplet:	2434	A	A	2077	A	A	S:SC	2243	U	A	W:ST
+Cyclic-3:	A[<AU>U]	SSC/WWC/HWC,WST
+
+-----------4v9a-pdb-bundle3-----------
+quad:	547	A	A	497	U	A	H:WT	397	A	A	S:HC	37	U	A	W:ST
+triplet:	397	A	A	547	A	A	H:SC	37	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------4b3r-----------
+quad:	547	A	A	498	U	A	H:WT	397	A	A	S:HC	37	U	A	W:ST
+triplet:	397	A	A	547	A	A	H:SC	37	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------4wra-----------
+quad:	547	A	A	497	U	A	H:WT	397	A	A	S:HC	37	U	A	W:ST
+triplet:	397	A	A	547	A	A	H:SC	37	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------4v8h-----------
+quad:	547	A	A	498	U	A	H:WT	397	A	A	S:HC	37	U	A	W:ST
+triplet:	397	A	A	547	A	A	H:SC	37	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------4v7s-pdb-bundle4-----------
+quad:	201	C	A	194	G	A	W:WC	195	A	A	W:WC	250	G	A	S:WT
+triplet:	195	A	A	201	C	A	W:WC	250	G	A	S:SC
+Cyclic-3:	C[<AG>G]	WWC/SWT/WWC,SSC
+
+-----------4v9n-pdb-bundle4-----------
+quad:	201	C	A	194	G	A	W:WC	195	A	A	W:WC	250	G	A	S:WT
+triplet:	195	A	A	201	C	A	W:WC	250	G	A	S:SC
+Cyclic-3:	C[<AG>G]	WWC/SWT/WWC,SSC
+
+-----------1ibl-----------
+quad:	547	A	A	498	U	A	H:WT	397	A	A	S:HC	37	U	A	W:ST
+triplet:	397	A	A	547	A	A	H:SC	37	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------1ibk-----------
+quad:	547	A	A	498	U	A	H:WT	397	A	A	S:HC	37	U	A	W:ST
+triplet:	397	A	A	547	A	A	H:SC	37	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------1j5e-----------
+quad:	547	A	A	498	U	A	H:WT	397	A	A	S:HC	37	U	A	W:ST
+triplet:	397	A	A	547	A	A	H:SC	37	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------4v63-----------
+quad:	547	A	A	497	U	A	H:WT	397	A	A	S:HC	37	U	A	W:ST
+triplet:	397	A	A	547	A	A	H:SC	37	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------4wqr-pdb-bundle3-----------
+quad:	1046	A	A	995	C	A	S:WC	1213	A	A	W:WT	1211	U	A	H:WT
+triplet:	1213	A	A	1046	A	A	W:WT	1211	U	A	S:SC
+Cyclic-3:	A[<AU>C]	WWT/HWT/SWC,SSC
+
+-----------1ibm-----------
+quad:	547	A	A	498	U	A	H:WT	397	A	A	S:HC	37	U	A	W:ST
+triplet:	397	A	A	547	A	A	H:SC	37	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------4z3q-pdb-bundle2-----------
+quad:	547	A	A	498	U	A	H:WT	397	A	A	S:HC	37	U	A	W:ST
+triplet:	397	A	A	547	A	A	H:SC	37	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------1xnr-----------
+quad:	547	A	A	498	U	A	H:WT	397	A	A	S:HC	37	U	A	W:ST
+triplet:	397	A	A	547	A	A	H:SC	37	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------1hr0-----------
+quad:	547	A	A	498	U	A	H:WT	397	A	A	S:HC	37	U	A	W:ST
+triplet:	397	A	A	547	A	A	H:SC	37	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------1xmq-----------
+quad:	547	A	A	498	U	A	H:WT	397	A	A	S:HC	37	U	A	W:ST
+triplet:	397	A	A	547	A	A	H:SC	37	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------4v95-----------
+quad:	547	A	A	498	U	A	H:WT	397	A	A	S:HC	37	U	A	W:ST
+triplet:	397	A	A	547	A	A	H:SC	37	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------1hnw-----------
+quad:	547	A	A	498	U	A	H:WT	397	A	A	S:HC	37	U	A	W:ST
+triplet:	397	A	A	547	A	A	H:SC	37	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------4y4p-pdb-bundle2-----------
+quad:	547	A	A	498	U	A	H:WT	397	A	A	S:HC	37	U	A	W:ST
+triplet:	397	A	A	547	A	A	H:SC	37	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------4dr2-----------
+quad:	547	A	A	498	U	A	H:WT	397	A	A	S:HC	37	U	A	W:ST
+triplet:	397	A	A	547	A	A	H:SC	37	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------2uuc-----------
+quad:	547	A	A	498	U	A	H:WT	397	A	A	S:HC	37	U	A	W:ST
+triplet:	397	A	A	547	A	A	H:SC	37	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------4v7t-pdb-bundle4-----------
+quad:	201	C	A	194	G	A	W:WC	195	A	A	W:WC	250	G	A	S:WT
+triplet:	195	A	A	201	C	A	W:WC	250	G	A	S:SC
+Cyclic-3:	C[<AG>G]	WWC/SWT/WWC,SSC
+
+-----------4w2g-----------
+quad:	547	A	A	498	U	A	H:WT	397	A	A	S:HC	37	U	A	W:ST
+triplet:	397	A	A	547	A	A	H:SC	37	U	A	W:WT
+Cyclic-3:	A[<AU>U]	SHC/WST/HWT,WWT
+
+-----------4v84-pdb-bundle2-----------
+quad:	2077	A	A	2075	U	A	H:WC	2434	A	A	S:SC	2243	U	A	W:WC
+triplet:	2434	A	A	2077	A	A	S:SC	2243	U	A	W:ST
+Cyclic-3:	A[<AU>U]	SSC/WWC/HWC,WST
+
+156

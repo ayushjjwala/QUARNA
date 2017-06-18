@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script type="text/javascript" src="{{STATIC_URL}}/static/bootstrap/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="{{STATIC_URL}}/static/bootstrap/css/bootstrap.min.css"/>
+	<title>QUARNA</title>
+</head>
+<body>
+	<div>
+		<div class="col-md-12">
+			<div style="float:left" class="col-md-2" align="left">
+				{% load staticfiles %}
+				<img src="{% static "quartet.png" %}" height="120px" width="154px" alt="logo"/>
+			</div>
+			<div class="col-md-8" align="center" style="text-align: center;color:SteelBlue;font-size: 60px;font-family:Rockwell Extra Bold">QUARNA<br>
+				<div class="col-md-12" align="center" style="text-align: center;color:Black;font-size: 30px;font-family:Rockwell Extra Bold">(QUArtets in RNA) 
+				</div>
+			</div>
+			<div style="float:right" class="col-xs-4 col-md-2" align="right">
+				{% load staticfiles %}
+				<img src="{% static "iiit_logo.jpg" %}" height="120px" width="194px" alt="iiit_logo"/>
+			</div>
+		</div>
+		<div>
+			<nav class="navbar navbar-inverse"style="clear:both;">
+				<div class="container-fluid">
+					<ul class="nav navbar-nav">
+						<li><a href="/" style="font-size: 17px"><strong>Home</strong></a></li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" style="font-size: 17px"><strong>Quartet Atlas</strong>
+							<span class="caret"></span></a>
+							<ul class="dropdown-menu" style="font-size: 17px;">
+								<li><a href="/{{ 'media/output/direct_download/linear.html' }}" target="_blank"><strong>Linear</strong></a></li>
+								<li role="separator" class="divider"></li>
+								<li><a href="/{{ 'media/output/direct_download/star.html' }}" target="_blank"><strong>Star</strong></a></li>
+								<li role="separator" class="divider"></li>
+								<li><a href="/{{ 'media/output/direct_download/cyclic-4.html' }}" target="_blank"><strong>Cyclic-4</strong></a></li>
+								<li role="separator" class="divider"></li>
+								<li><a href="/{{ 'media/output/direct_download/cyclic-3.html' }}" target="_blank"><strong>Cyclic-3</strong></a></li>
+							</ul>
+						</li>
+						<li><a href="/help"style="font-size: 17px" target="_blank"><strong>Help</strong></a></li>
+						<li><a href="/tnd" style="font-size: 17px"><strong>Terms and definition</strong></a></li>
+						<li><a href="/contact" style="font-size: 17px" target="_blank"><strong>Contact</strong></a></li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+	</div>
+	<strong style="margin-left: 20px">Find the Terms and definitions used in QUARNA right here.</strong>
+	<ol style="margin-left: 20px">
+		<li><a href="#quarna"><b>About QUARNA</b></a></li>
+		<li><a href="#geometry"><b>Base Pair Geometry</b></a></li>
+		<li><a href="#topology"><b>Quartet Topologies</b></a></li>
+		<li><a href="#nomenclature"><b>Quartet Nomenclature</b></a></li>
+		<li><a href="#datasets"><b>Datasets</b></a></li>
+		<li><a href="#bpfind"><b>BPFIND</b></a></li>
+	</ol>
+	<div style="margin-left: 20px">
+		<strong style="font-size: 20px" id="quarna">1. About QUARNA:</strong><br>
+		<p style="margin-left: 30px;margin-right: 30px" align="justify"><mark>QUARNA</mark> is a web portal, provides information about Quartets in RNA.  Nucleotide base quartets are group of 4 nucleotide bases which interact with each other via base pairing and observed recurrently in different functional RNA molecules. In the present work we have classified quartets according to their belongingness to a particular topological class. A comprehensive nomenclature scheme has been proposed based on topology, identity of the four participating nucleotide bases and geometries of constituent base pairs.<br>
+		<mark>QUARNA</mark> web-portal will help RNA researcher to identify and annotate base quartets in a given pdb file and will provide complete lists of different type of quartets present in specified datasets of known RNA structures.</p>
+		
+		<strong style="font-size: 20px" id="geometry">2. Base Pair Geometry:</strong>
+		<p style="margin-left: 30px;margin-right: 30px" align="justify">A base pair is characterized by base identities, the interacting edges and respective glycosidic bond orientation of both the participating bases. Based on interacting edges and glycosidic bond orientation, Leontis and Westhof Classified base pairs in 12 different classes. Figure 1 and figure 2 explains all possible geometries.<br><br></p>
+		<div>
+			<div class="col-md-6" align="center">	
+				{% load staticfiles %}
+				<img src="{% static "tnd_page/figure1.jpeg" %}" class="img-thumbnail" style="height: 400px" alt="..."><br>
+				<small>Figure 1. (a) interaction edges and (b) glycosidic bond orientation of base pairs.</small>
+			</div>
+			<div class="col-md-6" align="center">
+				{% load staticfiles %}
+				<img src="{% static "tnd_page/figure2.png" %}" class="img-thumbnail" style="height:400px" alt="..."><br>
+				<p align="justify"><small>Figure 2. Schematic diagram of 12 base pairing geometries given by Leontis and Westhof. In this classification some of the base pairing geometries have not been considered as separate geometries, e.g., Watson-crick:Hoogsteen and Hoogsteen:Watson-crick geometry has been considered as same. So, if we consider Hoogsteen:Watson-Crick, Sugar:Watson-crick and  Sugar:Hoogsteen geometries are different from  Watson-crick:Hoogsteen, Watson-crick:Sugar and Hoogsteen:Sugar respectively, then total number of geometric families will be actually 18 (considering both cis and trans orientation of the three aforementioned geometries).</small></p><br>
+			</div>
+		</div>
+		<p style="margin-left: 30px;margin-right: 30px" align="justify">(<i>Reference</i>: Leontis, N.B. and Westhof, E. 2001. Geometric nomenclature and classification of RNA base pairs; RNA, 7:499-512.)</p>
+
+		<strong style="font-size: 20px" id="topology">3. Quartet Topologies:</strong>
+		<p style="margin-left: 30px;margin-right: 30px" align="justify">In a quartet, bases can be arranged in one of the four different ways shown in Figure 3. These are the four quartet topologies observed in RNA. Base identity and exact base pairing geometries are not considered to define topology, rather, in each topological classes there are multiple subclass with unique base combinations and unique base pairing geometries between them.<br>
+		<mark>Type 1</mark> is the linear topology where four bases are connected linearly through base pairing interaction. In linear topology there is two internal bases, each of which pair with two other bases (one internal and one terminal) and two terminal bases, each of which pair with one of the central base.<br>
+		<mark>Type 2</mark> is a star type of topology where one central base pairs with three other bases, through its two (in case of one bifurcated pair) or three different edges.<br>
+		<mark>Type 3</mark> is where each of the four bases is paired with two other bases and form a cyclic topology.<br>
+		<mark>Type 4</mark> can be called a semi cyclic topology, which is a variant of star topology having three bases connected to one central base and any two of the terminal base are connected with each other. In this topology central base and two terminal bases forms a cyclic triple and the remaining one terminal base is paired with only the central base.<br>
+		Another two types of quartet topologies can be possible theoretically (described in figure 4 of supporting information). But probably, as those topologies are not very preferable sterically, no instances of those two types have been observed in existing RNA structures.</p><br>
+		<div>
+			<div class="col-md-6" align="center">
+				{% load staticfiles %}
+				<img src="{% static "tnd_page/figure3.jpg" %}" class="img-thumbnail" style="height: 400px" alt="..."><br>
+				<small>Figure 3. Four topologies of quartets observed in nature.</small>
+			</div>
+			<div class="col-md-6" align="center">
+				{% load staticfiles %}
+				<img src="{% static "tnd_page/figure4.jpg" %}" class="img-thumbnail" style="height: 400px;width: 550px" alt="..."><br>
+				<small>Figure 4. Two quartet topologies which are not observed in existing RNA structures</small><br><br>
+			</div>
+		</div>
+		<strong style="font-size: 20px" id="nomenclature">4. Quartet Nomenclature:</strong>
+		<p style="margin-left: 30px;margin-right: 30px" align="justify">Basic conventions of the topology specific nomenclature of RNA base quartets are tabulated in figure 5 with, schematic representations and one example of each topology.</p>
+		<div align="center">
+			{% load staticfiles %}
+			<img src="{% static "tnd_page/figure5.jpg" %}" class="img-thumbnail" style="height: 500px" alt="..."><br>
+			<small>Figure 5. Basic rules of quartet nomenclature.</small><br><br>
+		</div>
+		<p style="margin-left: 30px;margin-right: 30px" align="justify">
+			While naming a particular quartet, it is mandatory to mention the topological class of that quartet as a prefix to the quartet name. However in each topological class few basic priority rules has been implemented for unambiguous naming. The rules are described as follows:<br><br></p>
+		<i style="margin-left: 30px" id="linear_topology"><b>Type1/ Linear topology</b></i>
+		<ol style="margin-left: 35px;margin-right: 30px" align="justify">
+			<li>The name of a linear quartet will start with one of the terminal nucleotide which comes first in the dictionary order, other nucleotides will come serially according to connectivities.</li>
+			<li>If both the terminal nucleotides are same then, identity of the central bases has to be considered, and the quartet name will start with the terminal nucleotide, which is attached to central nucleotide of lesser dictionary order.</li>
+			<li>If both the central residues are also same then name will start with the terminal nucleotide having lesser nucleotide number.</li>
+		</ol>
+
+		<i style="margin-left: 30px" id="star_topology"><b>Type2/ Star topology</b></i>
+		<ol style="margin-left: 35px;margin-right: 30px" align="justify">
+			<li>In star topology, central base has to be mentioned first, outside the first bracket.</li>
+			<li>Then three residues, with which central base is connected, those will be written according to alphabetical order within a first bracket.</li>
+			<li>If there is more than one same residues within the bracket, then mention the residue with lower nucleotide number will come first.</li>
+		</ol>
+
+		<i style="margin-left: 30px" id="cyclic4_topology"><b>Type3/ Cyclic topology</b></i>
+		<ol style="margin-left: 35px;margin-right: 30px" align="justify">
+			<li>The name of a cyclic quartet will start with the residue of lowest dictionary order. </li>
+			<li>If there is more than one potential starting residue (same base) then consider the residue with lower nucleotide number.</li>
+			<li>Then remaining residues will come serially according to connectivities. But in cyclic quartet each residue is interacting with two other residues. So, there is an ambiguity to decide, which residue will come next in the order. To remove this ambiguity, here also dictionary order of these two probable residues has been considered. The residue will lower dictionary order will come next to the starting residue and cycle will be completed serially.</li>
+			<li>If the starting residue is connected with two residues with same nucleotide names, then the nucleotide number of the residues will be considered again and priority will be given to the residue with lower nucleotide number.</li>
+		</ol>
+
+		<i style="margin-left: 30px" id="cyclic3_topology"><b>Type4/ Semi-cyclic topology</b></i>
+		<ol style="margin-left: 35px;margin-right: 30px" align="justify">
+			<li>Name of the semi-cyclic quartets are very much similar to the star quartets. Central base will come first, outside the first bracket. Then other three residues, with which the central base is connected, will be written within the first bracket.</li>
+			<li>The only difference from star topology is here, within the bracket, that base is mentioned first, which is not the part of a cycle. Then write other two in alphabetical order. Here also if more than one same residue is present, priority will be given to lesser nucleotide number.</li>
+		</ol>
+		<strong style="font-size: 20px" id="datasets">5. Datasets:</strong>
+		<p style="margin-left: 30px">We have considered 4 different datasets, to explore the variety of different quartets</p>
+		<p style="margin-left: 30px;margin-right: 30px" align="justify"><i><b>HDRNAS non-redundant dataset:</b></i><br>
+		This dataset contain 167 pdb files, having nucleotide chain length >30nt and resolution <=3.5Å. HDRNAS (<a href="http://www.saha.ac.in/biop/www/HD-RNAS.html">here</a>) classifies all the RNA structures available in RCSB-PDB database according to their functional classes, e.g. transfer RNA (tRNA), messenger RNA (mRNA), ribosomal RNA (rRNA), ribozymes, riboswitches, ribonucleases, etc. The tRNAs and ribosomal RNAs are further classified according to the amino-acid it may carry and sedimentation coefficient, respectively. In order to exclude small synthetic RNA constructs, we have used a chain length cut-off of 30 nucleotides or larger for the classification procedure. The structures are then further classified according to the source organism from which the RNA molecules were isolated and crystallized. The non-redundant dataset consists of the best representative RNA structures from each of these sub-classes, determined by the best resolution and R-factor (free R-value).</p><br>
+		<p  style="margin-left: 30px;margin-right: 30px" align="justify"><i><b>NDB non-redundant dataset:</b></i><br>
+		The non-redundant list of RNA structures available at NDB (release id:1.89) contains 838 RNA structures, which have a resolution cutoff <= 3.5Å (<a href="http://rna.bgsu.edu/rna3dhub/nrlist/release/1.89/3.5A" >here</a>). In this list no restriction on chain length has been implemented, therefore it contains both synthetic and functional RNA molecules. NDB non-redundant list was created by removing uninteresting redundancy by clustering all the RNA structures based on sequence comparison, structural superposition and geometric analysis and selecting one representative  from the each cluster. The name of 838 pdb files present in NDB non-redundant list are mentioned in supporting information.</p><br>
+
+		<p style="margin-left: 30px;margin-right: 30px" align="justify"><i><b>X-ray structure dataset from RCSB-PDB:</b></i><br>
+		This dataset have been created by considering all RNA containing crystal structures with a resolution cutoff <=3.5Å, which were available in RCSB-PDB database(<a href="http://www.rcsb.org/pdb/home/home.do">here</a>) till 21st September, 2015. This dataset contains a total  of 1873 RNA containing X-ray crystal structures, of which 139 structures are available as mmCIF/PDBx format. These 139 structures are actually of larger biomolecular assemblies like ribosomes.<br>
+		As our program deals with structure files written as pdb format, In this dataset we have considered multiple PDB format-like files (available at the RCSB-PDB website) corresponding to each of the 139  mmCIF/PDBx files. For example, 4u3m is a structure of Yeast 80S ribosomes and available as ammCIF/PDBx file. For the present study we have taken 5 corresponding PDB format-like files, named 4u3m-pdb-bundle1.pdb to 4u3m-pdb-bundle5.pdb, instead of a single 4u3m mmCIF file. Thus, total number of pdb files are even more in this dataset, as there are actually 559 pdb-format-like files corresponding to 139 mmCIF files.</p><br>
+
+		<p style="margin-left: 30px"><i><b>NMR structure dataset from RCSB-PDB:</b></i><br>
+		This dataset contains all RNA containing NMR structures  (591 pdb files) available at RCSB-PDB database (<a href="http://www.rcsb.org/pdb/home/home.do">here</a>).</p>
+
+		<strong style="font-size: 20px" id="bpfind">6. BPFIND:</strong>
+		<p style="margin-left: 30px;margin-right: 30px" align="justify">BPFIND is a tool (<a href="http://www.saha.ac.in/biop/bioinformatics.html">here</a>), which detec and annotate base pairing interactions present in nucleic acid structures(DNA and RNA). This tool implements a hypothesis driven algorithm, for detection of base pairs, which are stabilized by at least two good hydrogen bonds and have a significant planar geometry. To quantify the goodness of a base pair BPFIND calculates a composite parameter called E value. Lower E_value implies better base pairing geometry.
+		(<i>Reference:</i> Das,J., Mukherjee,S., Mitra,A. and Bhattacharyya,D. (2006) Non-Canonical Base Pairs and Higher Order Structures in Nucleic Acids: Crystal Structure Database Analysis. J Biomol Struct Dyn, 24, 91–202.)<br>
+		We have used BPFind program to identify all base pairs present in RNA structures. Our Quartet finder program considers the output of BPFIND program as input for identification and classification of quartets.</p>
+	</div>
+	<div class="col-xs-12 col-md-12" >
+		<hr style="border-top:solid;border-width: 2px; color: #000;margin: 0px">
+		QUARNA version 1.0 © CCNSB, IIIT Hyderabad
+	</div>
+</body>
+</html>

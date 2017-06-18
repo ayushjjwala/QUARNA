@@ -1,0 +1,209 @@
+from django.shortcuts import render, HttpResponseRedirect, redirect
+import os
+import urllib2
+
+def index(request, *args, **kwargs):
+	return render(request,'quartet_finder/index.html')
+
+def help(request):
+	return render(request,'quartet_finder/help.html')
+
+def tnd(request):
+	return render(request,'quartet_finder/tnd.html')
+
+def contact(request):
+	return render(request,'quartet_finder/contact.html')
+
+def pdb_upload(request):
+	if request.method=='POST':
+		pdb_name = request.POST['pdb_name']
+		pdb_files = request.FILES.get("uploaded_pdb", None)
+		download_path = None
+		if(pdb_files==None) and (pdb_name==''):
+			alert_msg1 = "Write a PDB file name or Upload a PDB file"
+			print alert_msg1
+			return render(request,'quartet_finder/index.html',{'alert_msg1':alert_msg1})
+
+		elif (pdb_files!=None):
+			name = str(pdb_files).split('.')
+			if len(name)==2 and name[1]=='pdb':
+				handle_upload(pdb_files)	
+				run_bpfind(str(pdb_files))
+				download_path = 'media/output/'+str(pdb_files).split('.')[0] + '.zip'
+				file_name = str(pdb_files).split('.')[0] + '.zip'
+			else:
+				alert_msg2 = "Upload a '.pdb' file"
+				print alert_msg1
+				return render(request,'quartet_finder/index.html',{'alert_msg2':alert_msg})
+		elif (pdb_files==None) and (pdb_name!=''):
+			print "yes1"
+			print pdb_name
+			val = download_pdb(pdb_name)
+			if val==1:
+				return HttpResponseRedirect('/')
+			run_bpfind(pdb_name+".pdb")
+			download_path = 'media/output/'+pdb_name+'.zip'
+			print "download_path:", download_path
+			file_name = pdb_name + '.zip'
+		return render(request,'quartet_finder/index.html',{'download_path':download_path,'file_name':file_name})
+
+	else:
+		return HttpResponseRedirect('/')
+
+def download_pdb(name):
+	try:
+		u = urllib2.urlopen('http://www.rcsb.org/pdb/download/downloadFile.do?fileFormat=pdb&compression=NO&structureId='+str(name))
+		with open('media/input/' + name + '.pdb','wb+') as destination:
+			destination.write(u.read())
+		destination.close()
+		return 0
+	except:
+		return 1
+
+def handle_upload(f):
+	os.system('pwd')
+	with open('media/input/'+str(f),'wb+') as  destination:
+		for chunk in f.chunks():
+			destination.write(chunk)
+	destination.close()
+
+def run_bpfind(pdb):
+	os.system("pwd")
+	folder = pdb.split('.')[0]
+	os.system("mkdir scripts/bpfind/output/"+folder)
+	os.system("cp media/input/"+ pdb +" scripts/bpfind/output/"+folder+"/")
+	os.chdir("scripts/bpfind/")
+	print "running BPFIND on " + folder
+	os.system("./bpfind-linux "+"output/"+folder+"/"+pdb)
+	run_quadScripts(folder)
+
+def run_quadScripts(pdb):
+	os.chdir("..")
+	os.system("pwd")
+	print "extracting triplets from " + pdb 
+	os.system("python quad_scripts/get_all_triplets.py "+pdb+" > bpfind/output/"+pdb+"/triplets.txt")
+	print "extracting linear quartets from " + pdb
+	os.system("python quad_scripts/linear_quads.py "+pdb+" > bpfind/output/"+pdb+"/linear.txt")
+	print "extracting star quartets from " + pdb
+	os.system("python quad_scripts/star_quads.py "+pdb+" > bpfind/output/"+pdb+"/star.txt")
+	print "extracting square quartets from " + pdb
+	os.system("python quad_scripts/square_quads.py "+pdb+" > bpfind/output/"+pdb+"/cyclic.txt")
+	print "extracting semi-cyclic quartets from " + pdb
+	os.system("python quad_scripts/tri_quad.py "+pdb+" > bpfind/output/"+pdb+"/semi_cyclic.txt")
+	os.chdir("bpfind/output/")
+	os.system("zip "+pdb+" "+pdb+"/*")
+	os.chdir("../../..")
+	os.system("mv scripts/bpfind/output/"+pdb+".zip media/output/")
+
+
+
+def specific_residue(request):
+	if request.method=="POST":
+		res = request.POST['residues'].upper().split(',')
+		if len(res)!=4:
+			alert_msg3 = "Please enter 4 residues"
+			return render(request,'quartet_finder/index.html',{'alert_msg3':alert_msg3})			
+		topology = request.POST['topology']
+		database = request.POST['database']
+		check_res = ['A','U','G','C']
+		if res[0] not in check_res or res[1] not in check_res or res[2] not in check_res or res[3] not in check_res:
+			alert_msg4 = "Residues must be A or C or G or U."
+			return render(request,'quartet_finder/index.html',{'alert_msg4':alert_msg4})
+		else:
+			file_name = res
+			file_name.sort()
+			temp = ''.join(file_name)
+			file_name = temp + topology + database + ".txt"
+			script_path = "scripts/specific_residue/" + topology + ".py"
+			args = res[0] + ' ' +res[1] + ' '+res[2] + ' ' +res[3] + ' ' + database
+			file_path = "media/output/specific_residue/" + file_name
+			os.system("python "+ script_path + " " + args + " > " + file_path)
+			return render(request,'quartet_finder/index.html',{'download_path_sr':file_path,'file_name':file_name})
+	else:
+		return HttpResponseRedirect('/')
+
+
+def linear(request):
+	if request.method == 'POST':
+		b1 = request.POST['b1']
+		b2 = request.POST['b2']
+		geometry = request.POST['geometry'].upper().split(':')
+		if len(geometry)!=2:
+			alert_msg5 = "Please enter a valid geometry."
+			return render(request,'quartet_finder/linear.html',{'alert_msg5':alert_msg5})			
+		orient = request.POST['orient']
+		pos = request.POST['pos']
+		dataset = request.POST['dataset']
+		temp = [b1+geometry[0],b2+geometry[1]]
+		temp.sort()
+		file_name = pos + '_' + temp[0][0] + temp[1][0] + temp[0][1] + temp[1][1] +orient + '_' + dataset
+		file_path = "media/output/linear/"+ file_name + ".txt"
+		args = temp[0] + ' ' + temp[1] + ' ' + orient + ' ' + dataset
+		script_path = "scripts/linear/" + pos + ".py"
+		os.system("python " + script_path + " " + args + " > " + file_path)
+		return render(request,'quartet_finder/linear.html',{'download_path':file_path,'file_name':file_name+".txt"})
+	else:
+		return render(request,'quartet_finder/linear.html')
+
+def star(request):
+	if request.method=='POST':
+		cb = request.POST['b1']
+		b1 = request.POST['b2']
+		geometry = request.POST['geometry'].upper().split(':')
+		if len(geometry)!=2:
+			alert_msg6 = "Please enter a valid geometry."
+			return render(request,'quartet_finder/star.html',{'alert_msg6':alert_msg6})
+		orient = request.POST['orient']
+		dataset = request.POST['dataset']
+		temp = [cb+geometry[0],b1+geometry[1]]
+		temp.sort()
+		file_name = temp[0][0] + temp[1][0] + temp[0][1] + temp[1][1] +orient + '_' + dataset
+		file_path = "media/output/star/"+ file_name + ".txt"
+		args = temp[0] + ' ' + temp[1] + ' ' + orient + ' ' + dataset
+		script_path = "scripts/star/bp.py"
+		os.system("python " + script_path + " " + args + " > " + file_path)
+		return render(request,'quartet_finder/star.html',{'download_path':file_path,'file_name':file_name+".txt"})
+	else:
+		return render(request,'quartet_finder/star.html')
+
+def cyclic(request):
+	if request.method=='POST':
+		b1 = request.POST['b1']
+		b2 = request.POST['b2']
+		geometry = request.POST['geometry'].upper().split(':')
+		if len(geometry)!=2:
+			alert_msg7 = "Please enter a valid geometry."
+			return render(request,'quartet_finder/cyclic.html',{'alert_msg7':alert_msg7})
+		orient = request.POST['orient']
+		dataset = request.POST['dataset']
+		temp = [b1+geometry[0],b2+geometry[1]]
+		temp.sort()
+		file_name = temp[0][0] + temp[1][0] + temp[0][1] + temp[1][1] +orient + '_' + dataset
+		file_path = "media/output/cyclic/"+ file_name + ".txt"
+		args = temp[0] + ' ' + temp[1] + ' ' + orient + ' ' + dataset
+		script_path = "scripts/cyclic/bp.py"
+		os.system("python " + script_path + " " + args + " > " + file_path)
+		return render(request,'quartet_finder/cyclic.html',{'download_path':file_path,'file_name':file_name+".txt"})
+	else:
+		return render(request,'quartet_finder/cyclic.html')
+
+def semi_cyclic(request):
+	if request.method=='POST':
+		cb = request.POST['b1']
+		b1 = request.POST['b2']
+		geometry = request.POST['geometry'].upper().split(':')
+		if len(geometry)!=2:
+			alert_msg8 = "Please enter a valid geometry."
+			return render(request,'quartet_finder/semi_cyclic.html',{'alert_msg8':alert_msg8})
+		orient = request.POST['orient']
+		dataset = request.POST['dataset']
+		temp = [cb+geometry[0],b1+geometry[1]]
+		temp.sort()
+		file_name = temp[0][0] + temp[1][0] + temp[0][1] + temp[1][1] +orient + '_' + dataset
+		file_path = "media/output/semi_cyclic/"+ file_name + ".txt"
+		args = temp[0] + ' ' + temp[1] + ' ' + orient + ' ' + dataset
+		script_path = "scripts/semi_cyclic/bp.py"
+		os.system("python " + script_path + " " + args + " > " + file_path)
+		return render(request,'quartet_finder/semi_cyclic.html',{'download_path':file_path,'file_name':file_name+".txt"})
+	else:
+		return render(request,'quartet_finder/semi_cyclic.html')

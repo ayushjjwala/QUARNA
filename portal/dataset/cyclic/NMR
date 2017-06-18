@@ -1,0 +1,122 @@
+-----------1my9-----------
+28	G	B	16	G	B	W:HC	25	G	B	H:WC
+19	G	B	16	G	B	H:WC	25	G	B	W:HC
+Cyclic-4:	GGGG	HWC-HWC-HWC-HWC->
+
+-----------2k95-----------
+116	C	A	173	A	A	S:WC	98	G	A	W:WC
+99	U	A	173	A	A	W:HC	98	G	A	H:SC
+Cyclic-4:	ACGU	WSC-WWC-SHC-WHC->
+
+-----------2ru7-----------
+22	G	B	13	G	B	W:HC	19	G	B	H:WC
+16	G	B	13	G	B	H:WC	19	G	B	W:HC
+Cyclic-4:	GGGG	HWC-HWC-HWC-HWC->
+
+11	G	A	2	G	A	W:HC	8	G	A	H:WC
+5	G	A	2	G	A	H:WC	8	G	A	W:HC
+Cyclic-4:	GGGG	HWC-HWC-HWC-HWC->
+
+23	G	B	14	G	B	W:HC	20	G	B	H:WC
+17	G	B	14	G	B	H:WC	20	G	B	W:HC
+Cyclic-4:	GGGG	HWC-HWC-HWC-HWC->
+
+10	G	A	1	G	A	W:HC	7	G	A	H:WC
+4	G	A	1	G	A	H:WC	7	G	A	W:HC
+Cyclic-4:	GGGG	HWC-HWC-HWC-HWC->
+
+-----------2kbp-----------
+23	G	B	5	G	A	W:HC	17	G	B	H:WC
+11	G	A	5	G	A	H:WC	17	G	B	W:HC
+Cyclic-4:	GGGG	HWC-HWC-HWC-HWC->
+
+21	G	B	3	G	A	W:HC	15	G	B	H:WC
+9	G	A	3	G	A	H:WC	15	G	B	W:HC
+Cyclic-4:	GGGG	HWC-HWC-HWC-HWC->
+
+22	G	B	4	G	A	W:HC	16	G	B	H:WC
+10	G	A	4	G	A	H:WC	16	G	B	W:HC
+Cyclic-4:	GGGG	HWC-HWC-HWC-HWC->
+
+-----------2m18-----------
+39	G	D	23	G	C	W:HC	33	G	D	H:WC
+29	G	C	23	G	C	H:WC	33	G	D	W:HC
+Cyclic-4:	GGGG	HWC-HWC-HWC-HWC->
+
+19	G	B	3	G	A	W:HC	13	G	B	H:WC
+9	G	A	3	G	A	H:WC	13	G	B	W:HC
+Cyclic-4:	GGGG	HWC-HWC-HWC-HWC->
+
+37	G	D	21	G	C	W:HC	31	G	D	H:WC
+27	G	C	21	G	C	H:WC	31	G	D	W:HC
+Cyclic-4:	GGGG	HWC-HWC-HWC-HWC->
+
+17	G	B	1	G	A	W:HC	11	G	B	H:WC
+7	G	A	1	G	A	H:WC	11	G	B	W:HC
+Cyclic-4:	GGGG	HWC-HWC-HWC-HWC->
+
+18	G	B	2	G	A	W:HC	12	G	B	H:WC
+8	G	A	2	G	A	H:WC	12	G	B	W:HC
+Cyclic-4:	GGGG	HWC-HWC-HWC-HWC->
+
+38	G	D	22	G	C	W:HC	32	G	D	H:WC
+28	G	C	22	G	C	H:WC	32	G	D	W:HC
+Cyclic-4:	GGGG	HWC-HWC-HWC-HWC->
+
+-----------2rqj-----------
+10	G	A	1	G	A	W:HC	7	G	A	H:WC
+4	G	A	1	G	A	H:WC	7	G	A	W:HC
+Cyclic-4:	GGGG	HWC-HWC-HWC-HWC->
+
+23	G	B	14	G	B	W:HC	20	G	B	H:WC
+17	G	B	14	G	B	H:WC	20	G	B	W:HC
+Cyclic-4:	GGGG	HWC-HWC-HWC-HWC->
+
+22	G	B	13	G	B	W:HC	19	G	B	H:WC
+16	G	B	13	G	B	H:WC	19	G	B	W:HC
+Cyclic-4:	GGGG	HWC-HWC-HWC-HWC->
+
+11	G	A	2	G	A	W:HC	8	G	A	H:WC
+5	G	A	2	G	A	H:WC	8	G	A	W:HC
+Cyclic-4:	GGGG	HWC-HWC-HWC-HWC->
+
+-----------2la5-----------
+24	G	A	11	G	A	W:HC	20	G	A	H:WC
+15	G	A	11	G	A	H:WC	20	G	A	W:HC
+Cyclic-4:	GGGG	HWC-HWC-HWC-HWC->
+
+25	G	A	12	G	A	W:HC	21	G	A	H:WC
+16	G	A	12	G	A	H:WC	21	G	A	W:HC
+Cyclic-4:	GGGG	HWC-HWC-HWC-HWC->
+
+18	G	A	6	G	A	W:HC	26	G	A	H:WC
+9	G	A	6	G	A	H:WC	26	G	A	W:HC
+Cyclic-4:	GGGG	HWC-HWC-HWC-HWC->
+
+-----------2rsk-----------
+10	G	A	1	G	A	W:HC	7	G	A	H:WC
+4	G	A	1	G	A	H:WC	7	G	A	W:HC
+Cyclic-4:	GGGG	HWC-HWC-HWC-HWC->
+
+22	G	B	13	G	B	W:HC	19	G	B	H:WC
+16	G	B	13	G	B	H:WC	19	G	B	W:HC
+Cyclic-4:	GGGG	HWC-HWC-HWC-HWC->
+
+-----------1rau-----------
+2	G	D	2	G	A	W:HC	2	G	C	H:WC
+2	G	B	2	G	A	H:WC	2	G	C	W:HC
+Cyclic-4:	GGGG	HWC-HWC-HWC-HWC->
+
+4	G	D	4	G	A	W:HC	4	G	C	H:WC
+4	G	B	4	G	A	H:WC	4	G	C	W:HC
+Cyclic-4:	GGGG	HWC-HWC-HWC-HWC->
+
+5	G	D	5	G	A	W:HC	5	G	C	H:WC
+5	G	B	5	G	A	H:WC	5	G	C	W:HC
+Cyclic-4:	GGGG	HWC-HWC-HWC-HWC->
+
+3	G	D	3	G	A	W:HC	3	G	C	H:WC
+3	G	B	3	G	A	H:WC	3	G	C	W:HC
+Cyclic-4:	GGGG	HWC-HWC-HWC-HWC->
+
+28

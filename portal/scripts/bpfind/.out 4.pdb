@@ -1,0 +1,72 @@
+HEADER    VIRUS/RNA                               06-AUG-97   1AQ4              
+COMPND    MOL_ID: 1;                                                            
+COMPND   2 MOLECULE: PROTEIN(BACTERIOPHAGE MS2 COAT PROTEIN);                   
+COMPND   3 CHAIN: A, B, C;                                                      
+COMPND   4 ENGINEERED: YES;                                                     
+COMPND   5 MUTATION: YES;                                                       
+COMPND   6 MOL_ID: 2;                                                           
+COMPND   7 MOLECULE: RNA (5'-                                                   
+COMPND   8 R(*AP*CP*AP*UP*GP*AP*GP*GP*AP*UP*UP*AP*CP*CP*CP*AP*U                 
+COMPND   9 P*GP*U)-3');                                                         
+COMPND  10 CHAIN: R, S;                                                         
+COMPND  11 FRAGMENT: REPLICASE OPERATOR HAIRPIN, 19 NUCLEOTIDES;                
+COMPND  12 ENGINEERED: YES                                                      
+AUTHOR    L.LILJAS S.VAN DEN WORM,N.STONEHOUSE,K.VALEGARD                       
+JRNL        AUTH   S.H.VAN DEN WORM,N.J.STONEHOUSE,K.VALEGARD,                  
+JRNL        AUTH 2 J.B.MURRAY,C.WALTON,K.FRIDBORG,P.G.STOCKLEY,                 
+JRNL        AUTH 3 L.LILJAS                                                     
+JRNL        TITL   CRYSTAL STRUCTURES OF MS2 COAT PROTEIN MUTANTS IN            
+JRNL        TITL 2 COMPLEX WITH WILD-TYPE RNA OPERATOR FRAGMENTS.               
+JRNL        REF    NUCLEIC ACIDS RES.            V.  26  1345 1998              
+JRNL        REFN                   ISSN 0305-1048                               
+JRNL        PMID   9469847                                                      
+JRNL        DOI    10.1093/NAR/26.5.1345                                        
+HEADER   Base Pairing/Triplet Scheme for Structure File         .
+HEADER   Program BPFIND run with the following options:
+HEADER   Distance cutoff: 3.8   Angle cutoff: 120.0   E-value cutoff: 1.8
+HEADER   Original number of residues in structure file:     30
+HEADER   Cleaned number of residues:     30
+===============================================================================
+Column starting from > mark represent the following:
+>Serial number of nucleotides
+----->Residue number as in PDB
+---------->Residue name
+--------------->Chain ID
+---------------->Serial number of the paired base
+--------------------->Residue number of the paired base as in PDB
+-------------------------->Residue name of the paired base
+------------------------------->Chain ID of the paired base
+--------------------------------->Base pair type
+-------------------------------------->Base pair indicator
+--------------------------------------->E-value indicating base pair deformation
+------------------------------------------->Equivalent information for other pairs
+    1    3   A R   15   17   U R W:WC BP 0.57
+    2    4   U R   14   16   A R W:WC BP 0.52
+    3    5   G R   13   15   C R W:WC BP 0.51
+    4    6   A R
+    5    7   G R   12   14   C R W:WC BP 0.53
+    6    8   G R   11   13   C R W:WC BP 0.38
+    7    9   A R
+    8   10   U R
+    9   11   U R
+   10   12   A R
+   11   13   C R    6    8   G R W:WC BP 0.38
+   12   14   C R    5    7   G R W:WC BP 0.53
+   13   15   C R    3    5   G R W:WC BP 0.51
+   14   16   A R    2    4   U R W:WC BP 0.52
+   15   17   U R    1    3   A R W:WC BP 0.57
+   16   18   G R
+   17    3   A S
+   18    4   U S   30   16   A S W:WC BP 0.35
+   19    5   G S   29   15   C S W:WC BP 0.69
+   20    6   A S
+   21    7   G S   28   14   C S W:WC BP 0.16
+   22    8   G S   27   13   C S W:WC BP 0.24
+   23    9   A S
+   24   10   U S
+   25   11   U S
+   26   12   A S
+   27   13   C S   22    8   G S W:WC BP 0.24
+   28   14   C S   21    7   G S W:WC BP 0.16
+   29   15   C S   19    5   G S W:WC BP 0.69
+   30   16   A S   18    4   U S W:WC BP 0.35

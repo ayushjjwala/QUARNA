@@ -1,0 +1,98 @@
+-----------2AW7-----------
+1149	C	A	1280	A	A	S:WC	1124	G	A	W:WC
+1125	U	A	1280	A	A	W:HC	1124	G	A	H:SC
+Cyclic-4:	ACGU	WSC-WWC-SHC-WHC->
+
+-----------4kzd-----------
+57	G	R	22	G	R	W:HC	61	G	R	H:WC
+26	G	R	22	G	R	H:WC	61	G	R	W:HC
+Cyclic-4:	GGGG	HWC-HWC-HWC-HWC->
+
+54	G	R	23	G	R	W:HC	59	G	R	H:WC
+27	G	R	23	G	R	H:WC	59	G	R	W:HC
+Cyclic-4:	GGGG	HWC-HWC-HWC-HWC->
+
+-----------2awe-----------
+5	G	G	5	G	E	W:HC	5	G	F	H:WC
+5	G	H	5	G	E	H:WC	5	G	F	W:HC
+Cyclic-4:	GGGG	HWC-HWC-HWC-HWC->
+
+3	G	G	3	G	E	W:HC	3	G	F	H:WC
+3	G	H	3	G	E	H:WC	3	G	F	W:HC
+Cyclic-4:	GGGG	HWC-HWC-HWC-HWC->
+
+5	G	C	5	G	A	W:HC	5	G	B	H:WC
+5	G	D	5	G	A	H:WC	5	G	B	W:HC
+Cyclic-4:	GGGG	HWC-HWC-HWC-HWC->
+
+3	G	C	3	G	A	W:HC	3	G	B	H:WC
+3	G	D	3	G	A	H:WC	3	G	B	W:HC
+Cyclic-4:	GGGG	HWC-HWC-HWC-HWC->
+
+-----------4W23-----------
+1550	G	2	1559	C	2	S:SC	1582	C	2	W:WC
+1576	G	2	1559	C	2	W:WC	1582	C	2	S:SC
+Cyclic-4:	CGCG	SSC-WWC-SSC-WWC->
+
+-----------4qk9-----------
+3	C	A	73	A	A	S:WC	113	G	A	W:WC
+114	U	A	73	A	A	W:HC	113	G	A	H:SC
+Cyclic-4:	ACGU	WSC-WWC-SHC-WHC->
+
+-----------2grb-----------
+5	G	G	5	G	E	W:HC	5	G	F	H:WC
+5	G	H	5	G	E	H:WC	5	G	F	W:HC
+Cyclic-4:	GGGG	HWC-HWC-HWC-HWC->
+
+2	G	G	2	G	E	W:HC	2	G	F	H:WC
+2	G	H	2	G	E	H:WC	2	G	F	W:HC
+Cyclic-4:	GGGG	HWC-HWC-HWC-HWC->
+
+5	G	C	5	G	A	W:HC	5	G	B	H:WC
+5	G	D	5	G	A	H:WC	5	G	B	W:HC
+Cyclic-4:	GGGG	HWC-HWC-HWC-HWC->
+
+6	U	H	6	U	E	W:HC	6	U	F	H:WC
+6	U	G	6	U	E	H:WC	6	U	F	W:HC
+Cyclic-4:	UUUU	HWC-HWC-HWC-HWC->
+
+4	G	C	4	G	A	W:HC	4	G	B	H:WC
+4	G	D	4	G	A	H:WC	4	G	B	W:HC
+Cyclic-4:	GGGG	HWC-HWC-HWC-HWC->
+
+4	G	G	4	G	E	W:HC	4	G	F	H:WC
+4	G	H	4	G	E	H:WC	4	G	F	W:HC
+Cyclic-4:	GGGG	HWC-HWC-HWC-HWC->
+
+2	G	C	2	G	A	W:HC	2	G	B	H:WC
+2	G	D	2	G	A	H:WC	2	G	B	W:HC
+Cyclic-4:	GGGG	HWC-HWC-HWC-HWC->
+
+-----------3ibk-----------
+23	G	B	5	G	A	W:HC	17	G	B	H:WC
+11	G	A	5	G	A	H:WC	17	G	B	W:HC
+Cyclic-4:	GGGG	HWC-HWC-HWC-HWC->
+
+21	G	B	3	G	A	W:HC	15	G	B	H:WC
+9	G	A	3	G	A	H:WC	15	G	B	W:HC
+Cyclic-4:	GGGG	HWC-HWC-HWC-HWC->
+
+22	G	B	4	G	A	W:HC	16	G	B	H:WC
+10	G	A	4	G	A	H:WC	16	G	B	W:HC
+Cyclic-4:	GGGG	HWC-HWC-HWC-HWC->
+
+-----------4ts2-----------
+65	G	Y	26	G	X	W:HC	70	G	Y	H:WC
+30	G	X	26	G	X	H:WC	70	G	Y	W:HC
+Cyclic-4:	GGGG	HWC-HWC-HWC-HWC->
+
+68	G	Y	25	G	X	W:HC	72	G	Y	H:WC
+29	G	X	25	G	X	H:WC	72	G	Y	W:HC
+Cyclic-4:	GGGG	HWC-HWC-HWC-HWC->
+
+-----------1xjr-----------
+19	G	A	20	C	A	S:SC	31	C	A	W:WC
+28	G	A	20	C	A	W:WC	31	C	A	S:SC
+Cyclic-4:	CGCG	SSC-WWC-SSC-WWC->
+
+22
