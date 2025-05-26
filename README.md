@@ -1,10 +1,10 @@
-# QUARNA - G-Quadruplex Analysis Tool
+# QUARNA - Quadruplex Analysis Tool
 
-QUARNA is a web-based tool for analyzing G-Quadruplex structures in RNA/DNA. It provides comprehensive analysis for different types of G-Quadruplex formations including cyclic, linear, semi-cyclic, and star configurations.
+QUARNA is a web-based tool for analyzing Quadruplex structures in RNA/DNA. It provides comprehensive analysis for different types of Quadruplex formations including cyclic, linear, semi-cyclic, and star configurations.
 
 ## Features
 
-- Analysis of multiple G-Quadruplex configurations:
+- Analysis of multiple Quadruplex configurations:
   - Cyclic
   - Linear
   - Semi-cyclic
@@ -86,7 +86,7 @@ The tool uses structural data from various sources:
 - NMR structures
 - X-RAY crystallography data
 
-Each type of G-Quadruplex configuration (cyclic, linear, semi-cyclic, star) has its own dataset collection in these categories.
+Each type of Quadruplex configuration (cyclic, linear, semi-cyclic, star) has its own dataset collection in these categories.
 
 ## Tools
 
