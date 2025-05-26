@@ -98,14 +98,6 @@ Each type of Quadruplex configuration (cyclic, linear, semi-cyclic, star) has it
   - Star formations
 - Specific residue analysis tools
 
-## License
-
-[Add license information]
-
-## Contributors
-
-[Add contributor information]
-
 ## Acknowledgments
 
 - IIIT (International Institute of Information Technology)
