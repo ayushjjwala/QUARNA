@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script type="text/javascript" src="{{STATIC_URL}}/static/bootstrap/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="{{STATIC_URL}}/static/bootstrap/css/bootstrap.min.css"/>
+	<title>QUARNA</title>
+</head>
+<body>
+	<div>
+		<div class="col-md-12">
+			<div style="float:left" class="col-md-2" align="left">
+				{% load static %}
+				<img src="{% static "quartet.png" %}" height="120px" width="154px" alt="logo"/>
+			</div>
+			<div class="col-md-8" align="center" style="text-align: center;color:SteelBlue;font-size: 60px;font-family:Rockwell Extra Bold">QUARNA<br>
+				<div class="col-md-12" align="center" style="text-align: center;color:Black;font-size: 30px;font-family:Rockwell Extra Bold">(QUArtets in RNA) 
+				</div>
+			</div>
+			<div style="float:right" class="col-xs-4 col-md-2" align="right">
+				{% load static %}
+				<img src="{% static "iiit_logo.jpg" %}" height="120px" width="194px" alt="iiit_logo"/>
+			</div>
+		</div>
+		<div>
+			<nav class="navbar navbar-inverse"style="clear:both;">
+				<div class="container-fluid">
+					<ul class="nav navbar-nav">
+						<li><a href="/" style="font-size: 17px"><strong>Home</strong></a></li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" style="font-size: 17px"><strong>Quartet Atlas</strong>
+							<span class="caret"></span></a>
+							<ul class="dropdown-menu" style="font-size: 17px;">
+								<li><a href="/{{ 'media/output/direct_download/linear.html' }}" target="_blank"><strong>Linear</strong></a></li>
+								<li role="separator" class="divider"></li>
+								<li><a href="/{{ 'media/output/direct_download/star.html' }}" target="_blank"><strong>Star</strong></a></li>
+								<li role="separator" class="divider"></li>
+								<li><a href="/{{ 'media/output/direct_download/cyclic-4.html' }}" target="_blank"><strong>Cyclic-4</strong></a></li>
+								<li role="separator" class="divider"></li>
+								<li><a href="/{{ 'media/output/direct_download/cyclic-3.html' }}" target="_blank"><strong>Cyclic-3</strong></a></li>
+							</ul>
+						</li>
+						<li><a href="/help"style="font-size: 17px" target="_blank"><strong>Help</strong></a></li>
+						<li><a href="/tnd" style="font-size: 17px" target="_blank"><strong>Terms and definition</strong></a></li>
+						<li><a href="/contact" style="font-size: 17px"><strong>Contact</strong></a></li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+	</div>
+	<div>
+		<div class="col-md-6">
+			<iframe src="https://docs.google.com/forms/d/1KA9VVJ1Vimzg6G10j3OgQcL8S_bcQgWVbh1CHJ09gTk/viewform?embedded=true" width="600" height="465" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+		</div>
+		<div class="col-md-6">
+			<div class="col-md-8" style="margin-left: -1em">
+				<h4>Abhijit Mitra </h4>
+				<p class="contacts">
+					<small>
+						<b>Email:</b> abi_chem@iiit.ac.in<br><br>
+						<b>Address:</b><br>
+						Center for Computational Natural Sciences &amp; Bioinformatics (CCNSB),<br>
+						International Institute of Information Technology<br>
+						Gachibowli, Hyderabad - 500032, India<br>
+						<b>Phone:</b> (91) (40) 6653 1000 Ext: 1171<br>
+						<b>Fax:</b> (91) (40) 6653 1413<br>
+						<a href=" http://www.iiit.ac.in/people/faculty/abi_chem" target='_blank'>Home Page</a><br><br>
+					</small>
+				</p>
+				
+				<h4>Dhananjay Bhattacharyya</h4>
+				<p class="contacts">
+					<small>
+						<b>Email:</b> dhananjay.bhattacharyya@saha.ac.in<br><br>
+						<b>Address:</b><br>
+						Computational Sciences Division,<br>
+						Saha Institute of Neuclear Physics<br>
+						Sector -1, Block - AF Bidhan Nagar, Kolkata - 700064, India<br>
+						<a href="http://www.saha.ac.in/web/compsd-personal-page?mid=51&tab=tab2" target="_blank">Home Page</a><br><br>
+					</small>
+				</p>
+			</div>
+			<div class="col-md-4" style="width: 220px;margin-left: -0.5em" >
+				<h4>Sohini Bhattacharya</h4>
+				<p class="contacts">
+				<small><b>Email:</b> sohini.bhattacharya@research.iiit.ac.in <br><br></small>
+				</p>
+				<h4>Ayush Jhunjhunwala</h4>
+				<p class="contacts"><small>
+					<b>Email:</b> ayush.jhunjhunwala@research.iiit.ac.in <br><br>
+				</small>
+				</p>
+			</div>
+
+		</div>
+	</div>
+	<div class="col-xs-12 col-md-12" >
+		<hr style="border-top:solid;border-width: 2px; color: #000;margin-bottom: 0px">
+		QUARNA version 1.0 © CCNSB, IIIT Hyderabad
+	</div>
+</body>
+</html>
